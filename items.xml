@@ -421,7 +421,7 @@
         </Drops>
     </Relic>
     <Relic>
-        <Type>neo_s10_relic</Type>
+        <Type>axi_s10_relic</Type>
         <Vaulted>unvaulted</Vaulted>
         <Drops>
             <Drop name="forma_blueprint"></Drop>
@@ -433,7 +433,7 @@
         </Drops>
     </Relic>
     <Relic>
-        <Type>neo_s11_relic</Type>
+        <Type>axi_s11_relic</Type>
         <Vaulted>unvaulted</Vaulted>
         <Drops>
             <Drop name="fang_prime_handle"></Drop>
@@ -445,7 +445,7 @@
         </Drops>
     </Relic>
     <Relic>
-        <Type>neo_s8_relic</Type>
+        <Type>axi_s8_relic</Type>
         <Vaulted>unvaulted</Vaulted>
         <Drops>
             <Drop name="cernos_prime_grip"></Drop>
@@ -457,7 +457,7 @@
         </Drops>
     </Relic>
     <Relic>
-        <Type>neo_t8_relic</Type>
+        <Type>axi_t8_relic</Type>
         <Vaulted>unvaulted</Vaulted>
         <Drops>
             <Drop name="forma_blueprint"></Drop>
@@ -469,7 +469,7 @@
         </Drops>
     </Relic>
     <Relic>
-        <Type>neo_v10_relic</Type>
+        <Type>axi_v10_relic</Type>
         <Vaulted>unvaulted</Vaulted>
         <Drops>
             <Drop name="cernos_prime_string"></Drop>

@@ -1,12 +1,14 @@
+from urllib import request
 import requests as rq
 import xml.etree.ElementTree as ET
 import os
 import json
 from collections import Counter
 import time
-# 1. List of all vaulted relics drops
-# 2. Need to get average price of every relic drop with drop chance considered
-# 3. Compare with average price of all relics drops
+import tkinter as tk
+import random
+from PIL import Image
+from io import BytesIO
 
 
 class Relic:
@@ -22,6 +24,9 @@ class Relic:
 
 visitedDrops = {}
 
+all_relics = []
+searching = False
+
 
 def get_best_relic(relics):
     best_relic = Relic("")
@@ -29,6 +34,8 @@ def get_best_relic(relics):
         print(relic.name, relic.average_price)
         if relic.average_price > best_relic.average_price:
             best_relic = relic
+    print(best_relic.name)
+    searching = False
     return best_relic.name
 
 
@@ -87,9 +94,9 @@ def get_items_id(relics):
 
                     relic.average_price = avg_plat
             rarity_counter += 1
-
+    all_relics = relics
     return relics
-    #orders = payload.get('orders', [])
+    # orders = payload.get('orders', [])
 
 
 def parseResponse(response, desiredID):
@@ -98,8 +105,36 @@ def parseResponse(response, desiredID):
    # for child in root.findall('Item'):
 
 
-def parseXML(xmlfile):
+def random_relic_icon():
+    if(searching):
+        random_relic_index = random.randint(0, len(all_relics) - 1)
+        response = rq.get("https://api.warframe.market/v1/items/" +
+                          all_relics[random_relic_index].name)
+        while response.status_code == 503:
+            time.sleep(1)
+            response = rq.get(
+                'https://api.warframe.market/v1/items/' + all_relics[random_relic_index].name)
 
+        response.raise_for_status()
+
+        if response.text == "":
+            return
+        tojson = json.loads(response.text)
+        if tojson.get('payload') != None:
+            payload = tojson.get('payload')
+            if tojson.get('item') != None:
+                item = tojson.get('item')
+                headers = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36', }
+
+                imageurl = rq.get(
+                    'https://warframe.market/static/assets/' + item.get('icon'), headers=headers)
+                img = Image.open(BytesIO(imageurl.content))
+        return img
+
+
+def parseXML(xmlfile):
+    searching = True
     # parse the xml file, sorting each relic drop into a dictionary with the drops stored as the values
 
     tree = ET.parse(xmlfile)
@@ -117,7 +152,8 @@ def parseXML(xmlfile):
 
 
 def main():
-    print(get_best_relic(get_items_id(parseXML('D:\GIT\plat_bot\items.xml'))))
+
+    get_best_relic(get_items_id(parseXML('D:\GIT\plat_bot\items.xml')))
 
 
 if __name__ == "__main__":
