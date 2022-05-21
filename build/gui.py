@@ -9,8 +9,199 @@ from pathlib import Path
 # Explicit imports to satisfy Flake8
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 
-import plat_bot as pb
 import threading
+from curses import has_key
+from urllib import request
+import requests as rq
+import xml.etree.ElementTree as ET
+import os
+import json
+from collections import Counter
+import time
+import tkinter as tk
+import random
+from PIL import Image, ImageTk
+from io import BytesIO
+
+
+class Relic:
+    name = ""
+    drops = []
+    vaulted = False
+    average_price = 0
+    best_drop = []
+
+    def __init__(self, name):
+        self.name = name
+        self.drops = []
+
+
+visitedDrops = {}
+
+all_relics = []
+searching = False
+
+
+def get_best_relic(relics):
+    global searching
+    best_relic = Relic("")
+    top_ten = {}
+    for relic in relics:
+        if len(top_ten) < 10:
+            top_ten[relic.best_drop[1]] = relic.best_drop[0]
+        print(relic.name, relic.average_price)
+        if relic.average_price > best_relic.average_price:
+            best_relic = relic
+    print(best_relic.name)
+    searching = False
+    # list top ten best drops from the list of relics
+    
+
+    for relic in relics:
+
+        for key, value in top_ten.items():
+            if relic.best_drop[1] in top_ten:
+
+                continue
+            if relic.best_drop[0] > value:
+                top_ten[relic.best_drop[1]] = relic.best_drop[0]
+                top_ten.pop(key)
+                break
+    for key, value in top_ten.items():
+        print(key, value)
+    wupdate_best_relic_text(best_relic)
+    return best_relic.name
+
+def get_items_id(relics):
+    global all_relics, visitedDrops, searching
+
+    for relic in relics:
+        relic.best_drop = [0, ""]
+        response = rq.get(
+            'https://api.warframe.market/v1/items/' + relic.name + '/orders')
+        rarity_counter = 0
+        rarity_bias = .25
+        avg_plat = 0
+        for drop in relic.drops:
+            if rarity_counter > 3 and rarity_counter < 5:
+                rarity_bias = .11
+            elif rarity_counter >= 5:
+                rarity_bias = .2
+            if drop == "forma_blueprint" or drop == "n/a":
+                rarity_counter += 1
+                continue
+            if drop in visitedDrops:
+                avg_plat += visitedDrops[drop]
+                rarity_counter += 1
+                relic.average_price += avg_plat
+                continue
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36', }
+            response = rq.get(
+                'https://api.warframe.market/v1/items/' + drop + '/orders', headers=headers)
+            while response.status_code == 503:
+                time.sleep(1)
+                response = rq.get(
+                    'https://api.warframe.market/v1/items/' + drop + '/orders', headers=headers)
+
+            response.raise_for_status()
+            if response.text == "":
+                rarity_counter += 1
+                continue
+            tojson = json.loads(response.text)
+
+            if tojson.get('payload') != None:
+                payload = tojson.get('payload')
+                if payload.get('orders') != None:
+                    orders = payload.get('orders')
+
+                    plat_values = []
+
+                    for order in orders:
+                        if order.get('order_type') == 'sell':
+                            plat_values.append(
+                                float(order.get('platinum')) * rarity_bias)
+
+                    # Get average of 10 lowest prices
+                        if len(plat_values) != 0:
+                            plat_values.sort()
+                            plat_values = plat_values[:10]
+                            plat = sum(plat_values) / len(plat_values)
+                            if plat > relic.best_drop[0]:
+                                relic.best_drop = [plat, drop]
+                            avg_plat += plat
+                            visitedDrops[drop] = avg_plat
+
+                            relic.average_price = avg_plat
+            rarity_counter += 1
+    all_relics = relics
+   
+    return relics
+    # orders = payload.get('orders', [])
+
+
+def parseResponse(response, desiredID):
+    tree = ET.parse(response)
+    root = tree.getroot()
+   # for child in root.findall('Item'):
+
+
+def random_relic_icon():
+    global all_relics, searching
+   
+    random_relic_index = random.randint(0, len(all_relics) - 1)
+    response = rq.get("https://api.warframe.market/v1/items/" +
+                      all_relics[random_relic_index].name)
+    while response.status_code == 503:
+        time.sleep(1)
+        print("sleeping")
+        response = rq.get(
+            'https://api.warframe.market/v1/items/' + all_relics[random_relic_index].name)
+
+    response.raise_for_status()
+    tojson = json.loads(response.text)
+    if tojson.get('payload') != None:
+        payload = tojson.get('payload')
+        if payload.get('item') != None:
+            item = payload.get('item')
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36', }
+            if item.get('items_in_set') != None:
+                item_in_set = item.get('items_in_set')
+                if item_in_set != None:
+             
+                    imageurl = rq.get(
+                        'https://warframe.market/static/assets/' + item_in_set[0]['icon'], headers=headers)
+                    if imageurl == None:
+                        return None
+                    img = Image.open(BytesIO(imageurl.content))
+            
+                    # save in folder
+                    img.save(r"E:\\GIT\plat_bot\images\relics\{}.png".format(
+                        item.get('id'), 'r'))
+                    return "E:\\GIT\plat_bot\images\\relics\{}.png".format(
+                        item.get('id'))
+
+
+def parseXML(xmlfile):
+    global all_relics, searching
+    # parse the xml file, sorting each relic drop into a dictionary with the drops stored as the values
+
+    tree = ET.parse(xmlfile)
+    root = tree.getroot()
+    relics = []
+    for child in root.findall('Relic'):
+        relic = Relic(child.find('Type').text)
+        drops = list(child.iter())
+        for grandchild in drops:
+            if grandchild.tag == 'Drop':
+                relic.drops.append(grandchild.attrib['name'])
+        relics.append(relic)
+    all_relics = relics
+
+    return relics
+
+
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path("./assets")
@@ -21,8 +212,8 @@ def relative_to_assets(path: str) -> Path:
 
 
 def get_relic():
-    threading.Thread(target=pb.get_best_relic(pb.get_items_id(
-        pb.parseXML('D:\GIT\plat_bot\items.xml')))).start()
+    threading.Thread(target=get_best_relic(get_items_id(
+        parseXML('E:\Git\plat_bot\items.xml')))).start()
 
 
 window = Tk()
@@ -41,13 +232,14 @@ canvas = Canvas(
     relief="ridge"
 )
 
+
 canvas.place(x=0, y=0)
-# get an updated random image using pb.random_relic_icon() that constantly updates
+# get an updated random image using random_relic_icon() that constantly updates
 # the image on the screen
 
 # load image from directory images/relics
 img = PhotoImage(
-    file="D:\\GIT\plat_bot\images\\relics\\60ad4a1bf1904300d012c6f6.png")
+    file="E:\\Git\plat_bot\images\\relics\\60ad4a1bf1904300d012c6f6.png")
 
 canvas.create_image(
     0,
@@ -59,13 +251,13 @@ canvas.create_image(
 
 def updater():
     global img
-    img = pb.random_relic_icon()
-    img = PhotoImage(file=img)
+    img = random_relic_icon()
+    newimg = PhotoImage(file=img)
     canvas.create_image(
         0,
         0,
         anchor="nw",
-        image=img
+        image=newimg
     )
     window.after(1000, get_updater())
 
@@ -73,23 +265,30 @@ def updater():
 def get_updater():
     threading.Thread(updater()).start()
 
-
+best_relic_text = tk.StringVar()
 canvas.create_text(
     213.0,
     248.0,
     anchor="nw",
-    text="Best Relic: ",
+    text=best_relic_text,
     fill="#000000",
     font=("Inter", 12 * -1)
 )
 
+#update the text on the screen to show the best drop
+def update_best_relic_text(best_relic):
+    global best_relic_text
+    best_relic_text.set(best_relic.name)
+    window.after(1000, update_best_relic_text, best_relic)
+    
 button_image_1 = PhotoImage(
     file=relative_to_assets("button_1.png"))
 button_1 = Button(
     image=button_image_1,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: get_relic(),
+    command=lambda: get_best_relic(get_items_id(
+        parseXML('E:\Git\plat_bot\items.xml'))),
     relief="flat"
 )
 button_1.place(
@@ -101,4 +300,4 @@ button_1.place(
 window.resizable(False, False)
 
 window.mainloop()
-get_updater()
+

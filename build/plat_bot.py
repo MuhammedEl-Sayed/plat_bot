@@ -1,3 +1,4 @@
+from curses import has_key
 from urllib import request
 import requests as rq
 import xml.etree.ElementTree as ET
@@ -32,20 +33,24 @@ searching = False
 def get_best_relic(relics):
     global searching
     best_relic = Relic("")
+    top_ten = {}
     for relic in relics:
+        if len(top_ten) < 10:
+            top_ten[relic.best_drop[1]] = relic.best_drop[0]
         print(relic.name, relic.average_price)
         if relic.average_price > best_relic.average_price:
             best_relic = relic
     print(best_relic.name)
     searching = False
     # list top ten best drops from the list of relics
-    top_ten = {}
+    
 
-    top_ten[best_relic.best_drop[1]] = best_relic.best_drop[0]
     for relic in relics:
-        if relic.name == best_relic.name:
-            continue
+
         for key, value in top_ten.items():
+            if relic.best_drop[1] in top_ten:
+
+                continue
             if relic.best_drop[0] > value:
                 top_ten[relic.best_drop[1]] = relic.best_drop[0]
                 top_ten.pop(key)
@@ -58,6 +63,7 @@ def get_best_relic(relics):
 def get_items_id(relics):
     global all_relics, visitedDrops, searching
     for relic in relics:
+        relic.best_drop = [0, ""]
         response = rq.get(
             'https://api.warframe.market/v1/items/' + relic.name + '/orders')
         rarity_counter = 0
@@ -104,15 +110,16 @@ def get_items_id(relics):
                                 float(order.get('platinum')) * rarity_bias)
 
                     # Get average of 10 lowest prices
-                        plat_values.sort()
-                        plat_values = plat_values[:10]
-                        plat_values = sum(plat_values) / len(plat_values)
-                        if plat_values > relic.best_drop[0]:
-                            relic.best_drop = [plat_values, drop]
-                        avg_plat += plat_values
-                        visitedDrops[drop] = avg_plat
+                        if len(plat_values) != 0:
+                            plat_values.sort()
+                            plat_values = plat_values[:10]
+                            plat = sum(plat_values) / len(plat_values)
+                            if plat > relic.best_drop[0]:
+                                relic.best_drop = [plat, drop]
+                            avg_plat += plat
+                            visitedDrops[drop] = avg_plat
 
-                        relic.average_price = avg_plat
+                            relic.average_price = avg_plat
             rarity_counter += 1
     all_relics = relics
     return relics
@@ -186,10 +193,3 @@ def parseXML(xmlfile):
     return relics
 
 
-def main():
-
-    get_best_relic(get_items_id(parseXML('D:\GIT\plat_bot\items.xml')))
-
-
-if __name__ == "__main__":
-    main()
