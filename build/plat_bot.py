@@ -28,10 +28,10 @@ visitedDrops = {}
 
 all_relics = []
 searching = False
-
+best_relic_text = tk.StringVar()
 
 def get_best_relic(relics):
-    global searching
+    global searching, best_relic_text
     best_relic = Relic("")
     top_ten = {}
     for relic in relics:
@@ -57,8 +57,14 @@ def get_best_relic(relics):
                 break
     for key, value in top_ten.items():
         print(key, value)
+    best_relic_text.set(best_relic.name)
     return best_relic.name
 
+def update_best_relic_text(best_relic):
+    global best_relic_text
+    best_relic_text.set(best_relic.name)
+    
+    
 
 def get_items_id(relics):
     global all_relics, visitedDrops, searching
