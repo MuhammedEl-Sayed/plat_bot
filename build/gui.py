@@ -7,11 +7,11 @@ from pathlib import Path
 
 # from tkinter import *
 # Explicit imports to satisfy Flake8
-from tkinter import StringVar, Tk, Canvas, Entry, Text, Button, PhotoImage
+from tkinter import Label, StringVar, Tk, Canvas, Entry, Text, Button, PhotoImage
 
 import threading
 import plat_bot as pb
-
+import random
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path("./assets")
@@ -21,10 +21,24 @@ def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
 
-def get_relic():
-    threading.Thread(target=pb.get_best_relic(pb.get_items_id(
-        pb.parseXML('E:\Git\plat_bot\items.xml')))).start()
 
+def get_relic():
+
+    text.config(text =pb.get_best_relic(pb.get_items_id(pb.parseXML('E:\Git\plat_bot\items.xml'))) )
+    
+def thread_relic():
+    global relic_thread
+    relic_thread = threading.Thread(target = get_relic)
+    relic_thread.daemon = True
+    relic_thread.start()
+    window.after(1000, check_thread_relic)
+def check_thread_relic():
+    if relic_thread.is_alive():
+        window.after(1000, check_thread_relic)
+    else:
+        
+
+        
 
 window = Tk()
 
@@ -47,44 +61,22 @@ canvas.place(x=0, y=0)
 # get an updated random image using random_relic_icon() that constantly updates
 # the image on the screen
 
-# load image from directory images/relics
-img = PhotoImage(
-    file="E:\\Git\plat_bot\images\\relics\\60ad4a1bf1904300d012c6f6.png")
-
-canvas.create_image(
-    0,
-    0,
-    anchor="nw",
-    image=img
-)
 
 
-def updater():
-    global img
-    img = pb.random_relic_icon()
-    newimg = PhotoImage(file=img)
-    canvas.create_image(
-        0,
-        0,
-        anchor="nw",
-        image=newimg
-    )
-    window.after(1000, get_updater())
+
+def random_icon():
+    # pick random icon from E:\Git\plat_bot\images\relics
+    global img 
+    img = random.choice(list(Path("E:\Git\plat_bot\images\relics").glob("*.png")))
+    return  PhotoImage(file=str(img))
+    
+
+relic_image = PhotoImage( window, width=100, height=100, file=str(random_icon()))
 
 
-def get_updater():
-    threading.Thread(updater()).start()
 
-
-canvas.create_text(
-    213.0,
-    248.0,
-    anchor="nw",
-    text=pb.best_relic_text,
-    fill="#000000",
-    font=("Inter", 12 * -1)
-)
-
+text = Label(window, text="The Best Relic is: ", font=("Arial", 12))
+text.place(x=10, y=10)
 #update the text on the screen to show the best drop
 
 button_image_1 = PhotoImage(
@@ -93,7 +85,7 @@ button_1 = Button(
     image=button_image_1,
     borderwidth=0,
     highlightthickness=0,
-    command= get_relic(),
+    command= lambda: thread_relic(),
     relief="flat"
 )
 button_1.place(
