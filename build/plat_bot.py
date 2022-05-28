@@ -30,7 +30,7 @@ searching = False
 
 
 def get_best_relic(relics):
-    global searching, best_relic_text
+    global searching, best_relic_text, top_ten
     best_relic = Relic("")
     top_ten = {}
     for relic in relics:
@@ -112,8 +112,6 @@ def get_items_id(relics):
                     # Get average of 10 lowest prices
                     if len(plat_values) != 0:
                         plat_values.sort()
-                        if(drop == "corvas_prime_stock"):
-                            print(plat_values)
                         plat_values = plat_values[:10]
                         plat = sum(plat_values) / len(plat_values)
 
@@ -126,13 +124,11 @@ def get_items_id(relics):
             rarity_counter += 1
     all_relics = relics
     return relics
-    # orders = payload.get('orders', [])
 
 
 def parseResponse(response, desiredID):
     tree = ET.parse(response)
     root = tree.getroot()
-   # for child in root.findall('Item'):
 
 
 def random_relic_icon():

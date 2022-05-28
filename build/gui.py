@@ -23,8 +23,19 @@ def relative_to_assets(path: str) -> Path:
 
 
 def get_relic():
-    text.config(text=pb.get_best_relic(pb.get_items_id(
-        pb.parseXML('D:\GIT\plat_bot\items.xml'))))
+    final_relic = pb.get_best_relic(pb.get_items_id(
+        pb.parseXML('D:\GIT\plat_bot\items.xml')))
+    i = 0
+    curr_top_ten = dict(sorted(pb.top_ten.items(), key=lambda item: item[1]))
+    print(curr_top_ten)
+    for key, value in curr_top_ten.items():
+        i += 1
+        tempText = Label(window, text="Drop #" + str(i) +
+                         ": " + key + " - " + str(value), font=("Arial", 10))
+        tempText.grid(row=i, column=0)
+    text.config(text=final_relic)
+    text.grid(row=i+1, column=0)
+    relic_image_label.place_forget()
 
 
 def thread_relic():
@@ -93,6 +104,8 @@ relic_image_label.place(x=150, y=50)
 
 text = Label(window, text="The Best Relic is: ", font=("Arial", 12))
 text.place(x=10, y=10)
+
+
 # update the text on the screen to show the best drop
 
 button_image_1 = PhotoImage(
@@ -105,8 +118,9 @@ button_1 = Button(
     relief="flat"
 )
 button_1.place(
-    x=182.0,
-    y=302.0,
+    relx=0.5,
+    rely=0.9,
+    anchor="center",
     width=104.0,
     height=22.0
 )
