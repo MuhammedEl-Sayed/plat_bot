@@ -1,4 +1,3 @@
-from curses import has_key
 from urllib import request
 import requests as rq
 import xml.etree.ElementTree as ET
@@ -43,7 +42,6 @@ def get_best_relic(relics):
     print(best_relic.name)
     searching = False
     # list top ten best drops from the list of relics
-    
 
     for relic in relics:
 
@@ -57,14 +55,9 @@ def get_best_relic(relics):
                 break
     for key, value in top_ten.items():
         print(key, value)
-   
+
     return best_relic.name
 
-def update_best_relic_text(best_relic):
-    global best_relic_text
-    best_relic_text.set(best_relic.name)
-    
-    
 
 def get_items_id(relics):
     global all_relics, visitedDrops, searching
@@ -112,20 +105,24 @@ def get_items_id(relics):
 
                     for order in orders:
                         if order.get('order_type') == 'sell':
+
                             plat_values.append(
                                 float(order.get('platinum')) * rarity_bias)
 
                     # Get average of 10 lowest prices
-                        if len(plat_values) != 0:
-                            plat_values.sort()
-                            plat_values = plat_values[:10]
-                            plat = sum(plat_values) / len(plat_values)
-                            if plat > relic.best_drop[0]:
-                                relic.best_drop = [plat, drop]
-                            avg_plat += plat
-                            visitedDrops[drop] = avg_plat
+                    if len(plat_values) != 0:
+                        plat_values.sort()
+                        if(drop == "corvas_prime_stock"):
+                            print(plat_values)
+                        plat_values = plat_values[:10]
+                        plat = sum(plat_values) / len(plat_values)
 
-                            relic.average_price = avg_plat
+                        if plat > relic.best_drop[0]:
+                            relic.best_drop = [plat, drop]
+                        avg_plat += plat
+                        visitedDrops[drop] = avg_plat
+
+                        relic.average_price = avg_plat
             rarity_counter += 1
     all_relics = relics
     return relics
@@ -197,5 +194,3 @@ def parseXML(xmlfile):
         relics.append(relic)
 
     return relics
-
-
