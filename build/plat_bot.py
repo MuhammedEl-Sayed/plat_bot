@@ -183,6 +183,8 @@ def parseXML(xmlfile):
     relics = []
     for child in root.findall('Relic'):
         relic = Relic(child.find('Type').text)
+        if(child.find('Vaulted').text == "vaulted"):
+            relic.vaulted = True
         drops = list(child.iter())
         for grandchild in drops:
             if grandchild.tag == 'Drop':

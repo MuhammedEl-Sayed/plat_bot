@@ -1,0 +1,2930 @@
+<Relics>
+    <Relic>
+        <Type>lith_c7_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="hikou_prime_pouch" />
+            <Drop name="valkyr_prime_blueprint" />
+            <Drop name="nyx_prime_systems" />
+            <Drop name="scindo_prime_blueprint" />
+            <Drop name="cernos_prime_lower_limb" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_c8_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_receiver" />
+            <Drop name="tiberon_prime_blueprint" />
+            <Drop name="zephyr_prime_neuroptics" />
+            <Drop name="forma_blueprint" />
+            <Drop name="rubico_prime_stock" />
+            <Drop name="chroma_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_g5_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="lex_prime_receiver" />
+            <Drop name="octavia_prime_neuroptics" />
+            <Drop name="volnus_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="strun_prime_stock" />
+            <Drop name="garuda_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_h4_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="paris_prime_string" />
+            <Drop name="forma_blueprint" />
+            <Drop name="braton_prime_barrel" />
+            <Drop name="nezha_prime_blueprint" />
+            <Drop name="inaros_prime_chassis" />
+            <Drop name="harrow_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_n11_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="pandero_prime_blueprint" />
+            <Drop name="lex_prime_blueprint" />
+            <Drop name="fang_prime_blueprint" />
+            <Drop name="zakti_prime_barrel" />
+            <Drop name="astilla_prime_stock" />
+            <Drop name="nezha_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_n11_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="nezha_prime_systems" />
+            <Drop name="lex_prime_barrel" />
+            <Drop name="astilla_prime_receiver" />
+            <Drop name="strun_prime_barrel" />
+            <Drop name="burston_prime_barrel" />
+            <Drop name="nidus_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_s12_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="corvas_prime_stock" />
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="gara_prime_neuroptics" />
+            <Drop name="strun_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_t6_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="rubico_prime_barrel" />
+            <Drop name="burston_prime_barrel" />
+            <Drop name="kronen_prime_handle" />
+            <Drop name="tiberon_prime_stock" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_t9_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_receiver" />
+            <Drop name="fang_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="nidus_prime_blueprint" />
+            <Drop name="zakti_prime_barrel" />
+            <Drop name="tenora_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_z3_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_receiver" />
+            <Drop name="magnus_prime_blueprint" />
+            <Drop name="paris_prime_lower_limb" />
+            <Drop name="volnus_prime_head" />
+            <Drop name="nagantaka_prime_stock" />
+            <Drop name="zakti_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>meso_a3_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_stock" />
+            <Drop name="nidus_prime_systems" />
+            <Drop name="tenora_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="knell_prime_receiver" />
+            <Drop name="astilla_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>meso_g3_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="harrow_prime_chassis" />
+            <Drop name="strun_prime_receiver" />
+            <Drop name="karyst_prime_handle" />
+            <Drop name="panthera_prime_stock" />
+            <Drop name="gara_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>meso_g4_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="bronco_prime_receiver" />
+            <Drop name="octavia_prime_systems" />
+            <Drop name="corvas_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="scourge_prime_handle" />
+            <Drop name="guandao_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>meso_i2_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="karyst_prime_blueprint" />
+            <Drop name="astilla_prime_blueprint" />
+            <Drop name="guandao_prime_blueprint" />
+            <Drop name="inaros_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>meso_n11_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="cernos_prime_upper_limb" />
+            <Drop name="scindo_prime_handle" />
+            <Drop name="lex_prime_barrel" />
+            <Drop name="forma_blueprint" />
+            <Drop name="valkyr_prime_neuroptics" />
+            <Drop name="nyx_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>meso_n12_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="knell_prime_blueprint" />
+            <Drop name="zakti_prime_receiver" />
+            <Drop name="paris_prime_string" />
+            <Drop name="nidus_prime_blueprint" />
+            <Drop name="inaros_prime_blueprint" />
+            <Drop name="nagantaka_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>meso_p5_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="orthos_prime_handle" />
+            <Drop name="tenora_prime_blueprint" />
+            <Drop name="zakti_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="garuda_prime_neuroptics" />
+            <Drop name="panthera_prime_receiver" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>meso_p7_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="nezha_prime_systems" />
+            <Drop name="garuda_prime_chassis" />
+            <Drop name="guandao_prime_blueprint" />
+            <Drop name="panthera_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>meso_r4_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_barrel" />
+            <Drop name="gram_prime_blade" />
+            <Drop name="zephyr_prime_chassis" />
+            <Drop name="chroma_prime_systems" />
+            <Drop name="forma_blueprint" />
+            <Drop name="rubico_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>neo_c2_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="nidus_prime_systems" />
+            <Drop name="forma_blueprint" />
+            <Drop name="braton_prime_stock" />
+            <Drop name="magnus_prime_receiver" />
+            <Drop name="orthos_prime_blueprint" />
+            <Drop name="corvas_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>neo_k3_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="rubico_prime_receiver" />
+            <Drop name="braton_prime_receiver" />
+            <Drop name="tiberon_prime_barrel" />
+            <Drop name="kronen_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>neo_k4_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="inaros_prime_systems" />
+            <Drop name="panthera_prime_blueprint" />
+            <Drop name="braton_prime_stock" />
+            <Drop name="paris_prime_grip" />
+            <Drop name="knell_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>neo_m4_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="strun_prime_receiver" />
+            <Drop name="scourge_prime_blade" />
+            <Drop name="orthos_prime_handle" />
+            <Drop name="forma_blueprint" />
+            <Drop name="nagantaka_prime_receiver" />
+            <Drop name="magnus_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>neo_n16_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="burston_prime_stock" />
+            <Drop name="nezha_prime_systems" />
+            <Drop name="pandero_prime_barrel" />
+            <Drop name="orthos_prime_blade" />
+            <Drop name="nidus_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>neo_n20_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="fang_prime_blade" />
+            <Drop name="garuda_prime_blueprint" />
+            <Drop name="tenora_prime_blueprint" />
+            <Drop name="karyst_prime_handle" />
+            <Drop name="pandero_prime_barrel" />
+            <Drop name="nezha_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>neo_p4_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="paris_prime_upper_limb" />
+            <Drop name="zakti_prime_receiver" />
+            <Drop name="karyst_prime_blueprint" />
+            <Drop name="braton_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="pandero_prime_receiver" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>neo_v10_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="guandao_prime_blueprint" />
+            <Drop name="braton_prime_receiver" />
+            <Drop name="inaros_prime_chassis" />
+            <Drop name="akbronco_prime_link" />
+            <Drop name="volnus_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>neo_v9_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="nyx_prime_blueprint" />
+            <Drop name="venka_prime_blades" />
+            <Drop name="cernos_prime_blueprint" />
+            <Drop name="lex_prime_blueprint" />
+            <Drop name="valkyr_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>neo_z8_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_stock" />
+            <Drop name="chroma_prime_chassis" />
+            <Drop name="kronen_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="gram_prime_blueprint" />
+            <Drop name="zephyr_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>neo_v9_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="nyx_prime_blueprint" />
+            <Drop name="venka_prime_blades" />
+            <Drop name="cernos_prime_blueprint" />
+            <Drop name="lex_prime_blueprint" />
+            <Drop name="valkyr_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_g5_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_stock" />
+            <Drop name="chroma_prime_blueprint" />
+            <Drop name="tiberon_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="zephyr_prime_blueprint" />
+            <Drop name="gram_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_g7_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_blueprint" />
+            <Drop name="gara_prime_systems" />
+            <Drop name="inaros_prime_systems" />
+            <Drop name="astilla_prime_blueprint" />
+            <Drop name="tenora_prime_stock" />
+            <Drop name="garuda_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_k6_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="octavia_prime_neuroptics" />
+            <Drop name="harrow_prime_blueprint" />
+            <Drop name="inaros_prime_chassis" />
+            <Drop name="karyst_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_k7_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="karyst_prime_blueprint" />
+            <Drop name="paris_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="gara_prime_chassis" />
+            <Drop name="corvas_prime_blueprint" />
+            <Drop name="knell_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_o5_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="lex_prime_receiver" />
+            <Drop name="nezha_prime_systems" />
+            <Drop name="panthera_prime_blueprint" />
+            <Drop name="fang_prime_handle" />
+            <Drop name="inaros_prime_chassis" />
+            <Drop name="octavia_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_s10_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="guandao_prime_blade" />
+            <Drop name="nagantaka_prime_barrel" />
+            <Drop name="panthera_prime_stock" />
+            <Drop name="bronco_prime_barrel" />
+            <Drop name="scourge_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_s11_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="fang_prime_handle" />
+            <Drop name="panthera_prime_blueprint" />
+            <Drop name="akbronco_prime_blueprint" />
+            <Drop name="paris_prime_upper_limb" />
+            <Drop name="octavia_prime_chassis" />
+            <Drop name="scourge_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_s8_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="cernos_prime_grip" />
+            <Drop name="forma_blueprint" />
+            <Drop name="hikou_prime_blueprint" />
+            <Drop name="nyx_prime_chassis" />
+            <Drop name="venka_prime_blueprint" />
+            <Drop name="scindo_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_t8_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="paris_prime_lower_limb" />
+            <Drop name="strun_prime_receiver" />
+            <Drop name="harrow_prime_neuroptics" />
+            <Drop name="magnus_prime_receiver" />
+            <Drop name="tenora_prime_receiver" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_v10_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="cernos_prime_string" />
+            <Drop name="hikou_prime_stars" />
+            <Drop name="lex_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="valkyr_prime_systems" />
+            <Drop name="venka_prime_gauntlet" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>requiem_i_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="n/a" />
+            <Drop name="n/a" />
+            <Drop name="n/a" />
+            <Drop name="lohk" />
+            <Drop name="xata" />
+            <Drop name="n/a" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>requiem_ii_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="n/a" />
+            <Drop name="n/a" />
+            <Drop name="n/a" />
+            <Drop name="jahu" />
+            <Drop name="vome" />
+            <Drop name="n/a" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>requiem_iii_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="n/a" />
+            <Drop name="n/a" />
+            <Drop name="n/a" />
+            <Drop name="ris" />
+            <Drop name="fass" />
+            <Drop name="n/a" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>requiem_iv_relic</Type>
+        <Vaulted>unvaulted</Vaulted>
+        <Drops>
+            <Drop name="n/a" />
+            <Drop name="n/a" />
+            <Drop name="n/a" />
+            <Drop name="netra" />
+            <Drop name="khra" />
+            <Drop name="n/a" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_a1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="trinity_prime_systems" />
+            <Drop name="fragor_prime_head" />
+            <Drop name="braton_prime_stock" />
+            <Drop name="akstiletto_prime_barrel" />
+            <Drop name="dual_kamas_prime_handle" />
+            <Drop name="nikana_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_a10_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="akbronco_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="stradavar_prime_receiver" />
+            <Drop name="paris_prime_grip" />
+            <Drop name="wukong_prime_chassis" />
+            <Drop name="aksomati_prime_link" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_a11_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_receiver" />
+            <Drop name="fang_prime_blueprint" />
+            <Drop name="zhuge_prime_string" />
+            <Drop name="pangolin_prime_blade" />
+            <Drop name="wukong_prime_systems" />
+            <Drop name="atlas_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_a12_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="kogake_prime_boot" />
+            <Drop name="mirage_prime_chassis" />
+            <Drop name="banshee_prime_blueprint" />
+            <Drop name="helios_prime_systems" />
+            <Drop name="akbolto_prime_receiver" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_a13_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="inaros_prime_systems" />
+            <Drop name="orthos_prime_blueprint" />
+            <Drop name="pangolin_prime_blade" />
+            <Drop name="aksomati_prime_link" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_a14_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="volnus_prime_blueprint" />
+            <Drop name="zakti_prime_receiver" />
+            <Drop name="paris_prime_blueprint" />
+            <Drop name="nidus_prime_blueprint" />
+            <Drop name="karyst_prime_handle" />
+            <Drop name="aksomati_prime_link" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_a3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_barrel" />
+            <Drop name="helios_prime_carapace" />
+            <Drop name="kogake_prime_boot" />
+            <Drop name="cernos_prime_string" />
+            <Drop name="hydroid_prime_neuroptics" />
+            <Drop name="akbolto_prime_receiver" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_a4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_stock" />
+            <Drop name="forma_blueprint" />
+            <Drop name="zephyr_prime_neuroptics" />
+            <Drop name="ballistica_prime_string" />
+            <Drop name="fang_prime_handle" />
+            <Drop name="akbolto_prime_receiver" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_a6_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_stock" />
+            <Drop name="chroma_prime_blueprint" />
+            <Drop name="orthos_prime_handle" />
+            <Drop name="tipedo_prime_ornament" />
+            <Drop name="zhuge_prime_blueprint" />
+            <Drop name="atlas_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_a7_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="akstiletto_prime_receiver" />
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="carrier_prime_systems" />
+            <Drop name="forma_blueprint" />
+            <Drop name="fragor_prime_blueprint" />
+            <Drop name="ash_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_a8_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_stock" />
+            <Drop name="equinox_prime_chassis" />
+            <Drop name="pyrana_prime_barrel" />
+            <Drop name="forma_blueprint" />
+            <Drop name="gram_prime_blueprint" />
+            <Drop name="aksomati_prime_link" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_a9_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="gram_prime_blade" />
+            <Drop name="lex_prime_blueprint" />
+            <Drop name="rubico_prime_stock" />
+            <Drop name="akbronco_prime_link" />
+            <Drop name="ivara_prime_systems" />
+            <Drop name="atlas_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_b1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="euphona_prime_blueprint" />
+            <Drop name="ash_prime_chassis" />
+            <Drop name="fang_prime_blade" />
+            <Drop name="cernos_prime_blueprint" />
+            <Drop name="kavasa_prime_buckle" />
+            <Drop name="banshee_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_b2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="fragor_prime_head" />
+            <Drop name="sybaris_prime_blueprint" />
+            <Drop name="fang_prime_blade" />
+            <Drop name="forma_blueprint" />
+            <Drop name="orthos_prime_blueprint" />
+            <Drop name="banshee_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_b3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="paris_prime_lower_limb" />
+            <Drop name="stradavar_prime_stock" />
+            <Drop name="atlas_prime_chassis" />
+            <Drop name="zhuge_prime_receiver" />
+            <Drop name="baza_prime_stock" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_b4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="akjagara_prime_blueprint" />
+            <Drop name="aksomati_prime_blueprint" />
+            <Drop name="paris_prime_lower_limb" />
+            <Drop name="ivara_prime_blueprint" />
+            <Drop name="karyst_prime_handle" />
+            <Drop name="baza_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_c1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="trinity_prime_neuroptics" />
+            <Drop name="vectis_prime_barrel" />
+            <Drop name="lex_prime_receiver" />
+            <Drop name="orthos_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="cernos_prime_lower_limb" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_c2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="trinity_prime_systems" />
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="silva_and_aegis_prime_blade" />
+            <Drop name="fragor_prime_handle" />
+            <Drop name="cernos_prime_lower_limb" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_c3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="hydroid_prime_chassis" />
+            <Drop name="forma_blueprint" />
+            <Drop name="helios_prime_carapace" />
+            <Drop name="pyrana_prime_receiver" />
+            <Drop name="banshee_prime_blueprint" />
+            <Drop name="chroma_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_c4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="hydroid_prime_chassis" />
+            <Drop name="pyrana_prime_barrel" />
+            <Drop name="kogake_prime_blueprint" />
+            <Drop name="sybaris_prime_receiver" />
+            <Drop name="chroma_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_c5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_barrel" />
+            <Drop name="panthera_prime_blueprint" />
+            <Drop name="tekko_prime_gauntlet" />
+            <Drop name="akbronco_prime_link" />
+            <Drop name="tipedo_prime_ornament" />
+            <Drop name="corinth_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_c6_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="karyst_prime_blueprint" />
+            <Drop name="pangolin_prime_handle" />
+            <Drop name="ivara_prime_systems" />
+            <Drop name="pandero_prime_barrel" />
+            <Drop name="corinth_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_c7_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="lex_prime_receiver" />
+            <Drop name="magnus_prime_blueprint" />
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="tenora_prime_stock" />
+            <Drop name="volnus_prime_head" />
+            <Drop name="corinth_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_d1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="chroma_prime_blueprint" />
+            <Drop name="tiberon_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="zhuge_prime_receiver" />
+            <Drop name="destreza_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_d2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="aksomati_prime_receiver" />
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="destreza_prime_handle" />
+            <Drop name="forma_blueprint" />
+            <Drop name="rubico_prime_stock" />
+            <Drop name="destreza_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_d3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_stock" />
+            <Drop name="limbo_prime_systems" />
+            <Drop name="lex_prime_blueprint" />
+            <Drop name="destreza_prime_blueprint" />
+            <Drop name="pyrana_prime_receiver" />
+            <Drop name="dual_kamas_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_e1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="latron_prime_barrel" />
+            <Drop name="sicarus_prime_blueprint" />
+            <Drop name="frost_prime_neuroptics" />
+            <Drop name="glaive_prime_blade" />
+            <Drop name="forma_blueprint" />
+            <Drop name="ember_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_e2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="paris_prime_blueprint" />
+            <Drop name="lex_prime_receiver" />
+            <Drop name="braton_prime_stock" />
+            <Drop name="bronco_prime_barrel" />
+            <Drop name="forma_blueprint" />
+            <Drop name="euphona_prime_receiver" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_g1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="nekros_prime_chassis" />
+            <Drop name="saryn_prime_systems" />
+            <Drop name="paris_prime_blueprint" />
+            <Drop name="kavasa_prime_kubrow_collar_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="galatine_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_g2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="akbolto_prime_blueprint" />
+            <Drop name="burston_prime_receiver" />
+            <Drop name="wukong_prime_neuroptics" />
+            <Drop name="redeemer_prime_blueprint" />
+            <Drop name="tipedo_prime_ornament" />
+            <Drop name="gram_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_g3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="lex_prime_blueprint" />
+            <Drop name="ninkondi_prime_blueprint" />
+            <Drop name="burston_prime_barrel" />
+            <Drop name="kronen_prime_handle" />
+            <Drop name="gram_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_g4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="aksomati_prime_receiver" />
+            <Drop name="fang_prime_blueprint" />
+            <Drop name="tekko_prime_gauntlet" />
+            <Drop name="burston_prime_barrel" />
+            <Drop name="pangolin_prime_blade" />
+            <Drop name="gram_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_g6_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="aksomati_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="karyst_prime_blueprint" />
+            <Drop name="braton_prime_stock" />
+            <Drop name="nezha_prime_blueprint" />
+            <Drop name="gara_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_h1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="fragor_prime_head" />
+            <Drop name="vectis_prime_barrel" />
+            <Drop name="akstiletto_prime_receiver" />
+            <Drop name="trinity_prime_chassis" />
+            <Drop name="helios_prime_cerebrum" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_h2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="oberon_prime_chassis" />
+            <Drop name="lex_prime_receiver" />
+            <Drop name="fang_prime_handle" />
+            <Drop name="trinity_prime_chassis" />
+            <Drop name="akstiletto_prime_barrel" />
+            <Drop name="helios_prime_cerebrum" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_h3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="kronen_prime_blueprint" />
+            <Drop name="cernos_prime_grip" />
+            <Drop name="helios_prime_carapace" />
+            <Drop name="burston_prime_barrel" />
+            <Drop name="forma_blueprint" />
+            <Drop name="hydroid_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_h4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="mesa_prime_chassis" />
+            <Drop name="mirage_prime_chassis" />
+            <Drop name="paris_prime_upper_limb" />
+            <Drop name="akbolto_prime_link" />
+            <Drop name="forma_blueprint" />
+            <Drop name="hydroid_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_h5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="akbolto_prime_blueprint" />
+            <Drop name="banshee_prime_neuroptics" />
+            <Drop name="euphona_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="mirage_prime_systems" />
+            <Drop name="helios_prime_cerebrum" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_i1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="dethcube_prime_systems" />
+            <Drop name="panthera_prime_blueprint" />
+            <Drop name="pangolin_prime_handle" />
+            <Drop name="forma_blueprint" />
+            <Drop name="volnus_prime_head" />
+            <Drop name="inaros_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_i2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="strun_prime_receiver" />
+            <Drop name="tenora_prime_blueprint" />
+            <Drop name="baza_prime_barrel" />
+            <Drop name="gara_prime_chassis" />
+            <Drop name="inaros_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_k1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="odonata_prime_harness" />
+            <Drop name="hikou_prime_pouch" />
+            <Drop name="lex_prime_barrel" />
+            <Drop name="forma_blueprint" />
+            <Drop name="akstiletto_prime_receiver" />
+            <Drop name="kavasa_prime_buckle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_k2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="orthos_prime_handle" />
+            <Drop name="sybaris_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="cernos_prime_string" />
+            <Drop name="galatine_prime_handle" />
+            <Drop name="kronen_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_k3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="cernos_prime_grip" />
+            <Drop name="paris_prime_blueprint" />
+            <Drop name="tiberon_prime_receiver" />
+            <Drop name="banshee_prime_blueprint" />
+            <Drop name="pyrana_prime_receiver" />
+            <Drop name="kronen_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_k4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="paris_prime_blueprint" />
+            <Drop name="sybaris_prime_stock" />
+            <Drop name="destreza_prime_blueprint" />
+            <Drop name="kogake_prime_blueprint" />
+            <Drop name="kronen_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_k5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="ballistica_prime_lower_limb" />
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="equinox_prime_blueprint" />
+            <Drop name="hydroid_prime_blueprint" />
+            <Drop name="kronen_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_l1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="latron_prime_blueprint" />
+            <Drop name="reaper_prime_blueprint" />
+            <Drop name="wyrm_prime_carapace" />
+            <Drop name="forma_blueprint" />
+            <Drop name="glaive_prime_blade" />
+            <Drop name="loki_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_l2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="nami_skyla_prime_blueprint" />
+            <Drop name="orthos_prime_handle" />
+            <Drop name="forma_blueprint" />
+            <Drop name="tiberon_prime_blueprint" />
+            <Drop name="limbo_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_l3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="fang_prime_handle" />
+            <Drop name="kronen_prime_blueprint" />
+            <Drop name="nami_skyla_prime_blueprint" />
+            <Drop name="akjagara_prime_receiver" />
+            <Drop name="zephyr_prime_chassis" />
+            <Drop name="limbo_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_l4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="bo_prime_ornament" />
+            <Drop name="forma_blueprint" />
+            <Drop name="wyrm_prime_carapace" />
+            <Drop name="odonata_prime_blueprint" />
+            <Drop name="volt_prime_systems" />
+            <Drop name="loki_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_l5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_blueprint" />
+            <Drop name="fang_prime_blueprint" />
+            <Drop name="rubico_prime_stock" />
+            <Drop name="akbronco_prime_link" />
+            <Drop name="kronen_prime_handle" />
+            <Drop name="limbo_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_m1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="lex_prime_barrel" />
+            <Drop name="mesa_prime_chassis" />
+            <Drop name="zhuge_prime_string" />
+            <Drop name="orthos_prime_blueprint" />
+            <Drop name="rubico_prime_barrel" />
+            <Drop name="mirage_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_m2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_blueprint" />
+            <Drop name="bronco_prime_receiver" />
+            <Drop name="titania_prime_chassis" />
+            <Drop name="nezha_prime_blueprint" />
+            <Drop name="panthera_prime_stock" />
+            <Drop name="magnus_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_m3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="akjagara_prime_blueprint" />
+            <Drop name="fang_prime_blade" />
+            <Drop name="ballistica_prime_upper_limb" />
+            <Drop name="hydroid_prime_neuroptics" />
+            <Drop name="mesa_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_n1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="fang_prime_blade" />
+            <Drop name="akstiletto_prime_link" />
+            <Drop name="odonata_prime_wings" />
+            <Drop name="ash_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_n2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="carrier_prime_carapace" />
+            <Drop name="lex_prime_receiver" />
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="ash_prime_neuroptics" />
+            <Drop name="nikana_prime_hilt" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_n3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="paris_prime_upper_limb" />
+            <Drop name="dual_kamas_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="volt_prime_blueprint" />
+            <Drop name="bronco_prime_barrel" />
+            <Drop name="nekros_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_n4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="cernos_prime_upper_limb" />
+            <Drop name="galatine_prime_blade" />
+            <Drop name="nekros_prime_chassis" />
+            <Drop name="fragor_prime_handle" />
+            <Drop name="hydroid_prime_neuroptics" />
+            <Drop name="nikana_prime_hilt" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_n5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="euphona_prime_blueprint" />
+            <Drop name="lex_prime_barrel" />
+            <Drop name="oberon_prime_chassis" />
+            <Drop name="helios_prime_systems" />
+            <Drop name="nekros_prime_neuroptics" />
+            <Drop name="nami_skyla_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_n6_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="lex_prime_receiver" />
+            <Drop name="nikana_prime_blueprint" />
+            <Drop name="braton_prime_barrel" />
+            <Drop name="braton_prime_receiver" />
+            <Drop name="saryn_prime_blueprint" />
+            <Drop name="nikana_prime_hilt" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_n7_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="octavia_prime_systems" />
+            <Drop name="astilla_prime_receiver" />
+            <Drop name="baza_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="dethcube_prime_carapace" />
+            <Drop name="nezha_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_o1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="euphona_prime_blueprint" />
+            <Drop name="paris_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="akstiletto_prime_receiver" />
+            <Drop name="galatine_prime_handle" />
+            <Drop name="oberon_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_o2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="galatine_prime_blade" />
+            <Drop name="paris_prime_string" />
+            <Drop name="fang_prime_blade" />
+            <Drop name="tiberon_prime_blueprint" />
+            <Drop name="helios_prime_systems" />
+            <Drop name="oberon_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_o3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_stock" />
+            <Drop name="destreza_prime_handle" />
+            <Drop name="forma_blueprint" />
+            <Drop name="venka_prime_blueprint" />
+            <Drop name="zephyr_prime_chassis" />
+            <Drop name="oberon_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_o4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="lex_prime_blueprint" />
+            <Drop name="zephyr_prime_neuroptics" />
+            <Drop name="destreza_prime_handle" />
+            <Drop name="tiberon_prime_blueprint" />
+            <Drop name="gram_prime_blueprint" />
+            <Drop name="oberon_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_p1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="akjagara_prime_blueprint" />
+            <Drop name="equinox_prime_chassis" />
+            <Drop name="forma_blueprint" />
+            <Drop name="kogake_prime_blueprint" />
+            <Drop name="ninkondi_prime_chain" />
+            <Drop name="pyrana_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_p2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="dethcube_prime_systems" />
+            <Drop name="tiberon_prime_receiver" />
+            <Drop name="destreza_prime_blueprint" />
+            <Drop name="rubico_prime_stock" />
+            <Drop name="pyrana_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_p3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="zhuge_prime_grip" />
+            <Drop name="burston_prime_barrel" />
+            <Drop name="wukong_prime_systems" />
+            <Drop name="pyrana_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_p4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="fang_prime_handle" />
+            <Drop name="knell_prime_blueprint" />
+            <Drop name="pandero_prime_blueprint" />
+            <Drop name="corinth_prime_receiver" />
+            <Drop name="strun_prime_barrel" />
+            <Drop name="pangolin_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_r1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="boltor_prime_stock" />
+            <Drop name="mag_prime_systems" />
+            <Drop name="boar_prime_receiver" />
+            <Drop name="dakra_prime_blueprint" />
+            <Drop name="ankyros_prime_blade" />
+            <Drop name="rhino_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_r2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="destreza_prime_handle" />
+            <Drop name="forma_blueprint" />
+            <Drop name="lex_prime_receiver" />
+            <Drop name="chroma_prime_chassis" />
+            <Drop name="mirage_prime_systems" />
+            <Drop name="redeemer_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_r3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="fang_prime_blade" />
+            <Drop name="stradavar_prime_stock" />
+            <Drop name="zephyr_prime_neuroptics" />
+            <Drop name="akjagara_prime_link" />
+            <Drop name="wukong_prime_systems" />
+            <Drop name="redeemer_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_s1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="bronco_prime_receiver" />
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="akbronco_prime_link" />
+            <Drop name="trinity_prime_blueprint" />
+            <Drop name="scindo_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_s2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="latron_prime_receiver" />
+            <Drop name="loki_prime_blueprint" />
+            <Drop name="wyrm_prime_blueprint" />
+            <Drop name="ember_prime_systems" />
+            <Drop name="forma_blueprint" />
+            <Drop name="sicarus_prime_receiver" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_s3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="boltor_prime_stock" />
+            <Drop name="hikou_prime_stars" />
+            <Drop name="rhino_prime_systems" />
+            <Drop name="ankyros_prime_blade" />
+            <Drop name="nyx_prime_systems" />
+            <Drop name="scindo_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_s4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="boar_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="mag_prime_systems" />
+            <Drop name="dakra_prime_blade" />
+            <Drop name="nova_prime_blueprint" />
+            <Drop name="soma_prime_stock" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_s5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="cernos_prime_grip" />
+            <Drop name="saryn_prime_systems" />
+            <Drop name="venka_prime_blades" />
+            <Drop name="forma_blueprint" />
+            <Drop name="nikana_prime_blade" />
+            <Drop name="spira_prime_pouch" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_s6_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="nekros_prime_chassis" />
+            <Drop name="silva_and_aegis_prime_blade" />
+            <Drop name="tigris_prime_barrel" />
+            <Drop name="sybaris_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_s7_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="nova_prime_systems" />
+            <Drop name="vasto_prime_barrel" />
+            <Drop name="kavasa_prime_kubrow_collar_blueprint" />
+            <Drop name="trinity_prime_chassis" />
+            <Drop name="soma_prime_stock" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_s9_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="guandao_prime_blade" />
+            <Drop name="titania_prime_chassis" />
+            <Drop name="gara_prime_chassis" />
+            <Drop name="nezha_prime_blueprint" />
+            <Drop name="scourge_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_t1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="vectis_prime_barrel" />
+            <Drop name="odonata_prime_harness" />
+            <Drop name="saryn_prime_systems" />
+            <Drop name="akstiletto_prime_receiver" />
+            <Drop name="burston_prime_barrel" />
+            <Drop name="tigris_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_t2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="kogake_prime_boot" />
+            <Drop name="mirage_prime_neuroptics" />
+            <Drop name="stradavar_prime_stock" />
+            <Drop name="burston_prime_barrel" />
+            <Drop name="forma_blueprint" />
+            <Drop name="tipedo_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_t3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_blueprint" />
+            <Drop name="limbo_prime_systems" />
+            <Drop name="paris_prime_lower_limb" />
+            <Drop name="equinox_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="tipedo_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_t4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="corinth_prime_blueprint" />
+            <Drop name="wukong_prime_neuroptics" />
+            <Drop name="equinox_prime_blueprint" />
+            <Drop name="zhuge_prime_blueprint" />
+            <Drop name="tipedo_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_t5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="chroma_prime_blueprint" />
+            <Drop name="rubico_prime_receiver" />
+            <Drop name="zhuge_prime_string" />
+            <Drop name="forma_blueprint" />
+            <Drop name="gram_prime_blueprint" />
+            <Drop name="titania_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_t6_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="paris_prime_string" />
+            <Drop name="zakti_prime_receiver" />
+            <Drop name="tenora_prime_stock" />
+            <Drop name="wukong_prime_chassis" />
+            <Drop name="tekko_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_t7_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="bronco_prime_receiver" />
+            <Drop name="inaros_prime_systems" />
+            <Drop name="corinth_prime_receiver" />
+            <Drop name="pangolin_prime_blade" />
+            <Drop name="tekko_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_v1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="odonata_prime_systems" />
+            <Drop name="carrier_prime_systems" />
+            <Drop name="dual_kamas_prime_blueprint" />
+            <Drop name="volt_prime_neuroptics" />
+            <Drop name="forma_blueprint" />
+            <Drop name="vauban_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_v2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="hikou_prime_pouch" />
+            <Drop name="trinity_prime_systems" />
+            <Drop name="mag_prime_neuroptics" />
+            <Drop name="braton_prime_receiver" />
+            <Drop name="boar_prime_barrel" />
+            <Drop name="vectis_prime_stock" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_v3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="trinity_prime_neuroptics" />
+            <Drop name="vasto_prime_barrel" />
+            <Drop name="trinity_prime_systems" />
+            <Drop name="orthos_prime_blueprint" />
+            <Drop name="braton_prime_receiver" />
+            <Drop name="vectis_prime_stock" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_v4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="paris_prime_blueprint" />
+            <Drop name="trinity_prime_systems" />
+            <Drop name="odonata_prime_harness" />
+            <Drop name="cernos_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="vectis_prime_stock" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_v5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="venka_prime_blades" />
+            <Drop name="dual_kamas_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="braton_prime_receiver" />
+            <Drop name="tigris_prime_receiver" />
+            <Drop name="valkyr_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_v6_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="ballistica_prime_lower_limb" />
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="fang_prime_handle" />
+            <Drop name="galatine_prime_handle" />
+            <Drop name="valkyr_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_v7_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="lex_prime_barrel" />
+            <Drop name="nami_skyla_prime_blueprint" />
+            <Drop name="valkyr_prime_blueprint" />
+            <Drop name="kogake_prime_blueprint" />
+            <Drop name="silva_and_aegis_prime_blueprint" />
+            <Drop name="venka_prime_gauntlet" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_v9_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="saryn_prime_neuroptics" />
+            <Drop name="valkyr_prime_blueprint" />
+            <Drop name="spira_prime_blade" />
+            <Drop name="valkyr_prime_systems" />
+            <Drop name="venka_prime_gauntlet" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_w1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="aksomati_prime_receiver" />
+            <Drop name="bronco_prime_receiver" />
+            <Drop name="stradavar_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="inaros_prime_blueprint" />
+            <Drop name="wukong_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_w2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="baza_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="tekko_prime_gauntlet" />
+            <Drop name="bronco_prime_barrel" />
+            <Drop name="inaros_prime_blueprint" />
+            <Drop name="wukong_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>axi_z1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="panthera_prime_blueprint" />
+            <Drop name="wukong_prime_neuroptics" />
+            <Drop name="baza_prime_barrel" />
+            <Drop name="zhuge_prime_blueprint" />
+            <Drop name="zakti_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_a1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_barrel" />
+            <Drop name="forma_blueprint" />
+            <Drop name="vasto_prime_receiver" />
+            <Drop name="saryn_prime_neuroptics" />
+            <Drop name="vectis_prime_blueprint" />
+            <Drop name="akstiletto_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_a2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="lex_prime_barrel" />
+            <Drop name="forma_blueprint" />
+            <Drop name="valkyr_prime_blueprint" />
+            <Drop name="akbronco_prime_link" />
+            <Drop name="cernos_prime_blueprint" />
+            <Drop name="akstiletto_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_a3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="lex_prime_blueprint" />
+            <Drop name="orthos_prime_handle" />
+            <Drop name="rubico_prime_receiver" />
+            <Drop name="akbolto_prime_barrel" />
+            <Drop name="tiberon_prime_blueprint" />
+            <Drop name="akjagara_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_a4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="burston_prime_receiver" />
+            <Drop name="corinth_prime_blueprint" />
+            <Drop name="baza_prime_barrel" />
+            <Drop name="ivara_prime_systems" />
+            <Drop name="astilla_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_b1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="mag_prime_neuroptics" />
+            <Drop name="ankyros_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="rhino_prime_neuroptics" />
+            <Drop name="boltor_prime_receiver" />
+            <Drop name="boar_prime_stock" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_b2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="paris_prime_lower_limb" />
+            <Drop name="tigris_prime_stock" />
+            <Drop name="braton_prime_receiver" />
+            <Drop name="orthos_prime_blade" />
+            <Drop name="ballistica_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_b3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="limbo_prime_systems" />
+            <Drop name="cernos_prime_string" />
+            <Drop name="orthos_prime_blade" />
+            <Drop name="ballistica_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_b4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="ankyros_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="nyx_prime_blueprint" />
+            <Drop name="rhino_prime_neuroptics" />
+            <Drop name="scindo_prime_blueprint" />
+            <Drop name="boltor_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_b5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="oberon_prime_chassis" />
+            <Drop name="lex_prime_receiver" />
+            <Drop name="banshee_prime_neuroptics" />
+            <Drop name="rubico_prime_stock" />
+            <Drop name="orthos_prime_blade" />
+            <Drop name="ballistica_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_b6_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="fang_prime_blueprint" />
+            <Drop name="lex_prime_barrel" />
+            <Drop name="limbo_prime_systems" />
+            <Drop name="orthos_prime_blueprint" />
+            <Drop name="redeemer_prime_blueprint" />
+            <Drop name="ballistica_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_b7_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="lex_prime_receiver" />
+            <Drop name="tipedo_prime_blueprint" />
+            <Drop name="aksomati_prime_barrel" />
+            <Drop name="orthos_prime_blueprint" />
+            <Drop name="baza_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_b8_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="aksomati_prime_blueprint" />
+            <Drop name="burston_prime_stock" />
+            <Drop name="dethcube_prime_systems" />
+            <Drop name="atlas_prime_chassis" />
+            <Drop name="ivara_prime_blueprint" />
+            <Drop name="baza_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_c1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="fang_prime_blade" />
+            <Drop name="nova_prime_neuroptics" />
+            <Drop name="nova_prime_systems" />
+            <Drop name="kavasa_prime_band" />
+            <Drop name="forma_blueprint" />
+            <Drop name="carrier_prime_cerebrum" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_c2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="bronco_prime_receiver" />
+            <Drop name="paris_prime_upper_limb" />
+            <Drop name="venka_prime_blades" />
+            <Drop name="akbolto_prime_barrel" />
+            <Drop name="nami_skyla_prime_handle" />
+            <Drop name="cernos_prime_lower_limb" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_c3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="sybaris_prime_blueprint" />
+            <Drop name="silva_and_aegis_prime_hilt" />
+            <Drop name="lex_prime_blueprint" />
+            <Drop name="helios_prime_blueprint" />
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="chroma_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_c4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="paris_prime_lower_limb" />
+            <Drop name="braton_prime_stock" />
+            <Drop name="orthos_prime_blade" />
+            <Drop name="chroma_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_c5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="saryn_prime_neuroptics" />
+            <Drop name="spira_prime_blueprint" />
+            <Drop name="valkyr_prime_neuroptics" />
+            <Drop name="venka_prime_blueprint" />
+            <Drop name="cernos_prime_lower_limb" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_c6_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="equinox_prime_chassis" />
+            <Drop name="fang_prime_blade" />
+            <Drop name="forma_blueprint" />
+            <Drop name="braton_prime_receiver" />
+            <Drop name="mesa_prime_blueprint" />
+            <Drop name="corinth_prime_stock" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_c9_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_barrel" />
+            <Drop name="octavia_prime_systems" />
+            <Drop name="paris_prime_upper_limb" />
+            <Drop name="pandero_prime_barrel" />
+            <Drop name="scourge_prime_handle" />
+            <Drop name="corinth_prime_stock" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_d1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="atlas_prime_blueprint" />
+            <Drop name="burston_prime_receiver" />
+            <Drop name="lex_prime_receiver" />
+            <Drop name="mesa_prime_blueprint" />
+            <Drop name="ninkondi_prime_chain" />
+            <Drop name="dethcube_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_d2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="equinox_prime_chassis" />
+            <Drop name="forma_blueprint" />
+            <Drop name="wukong_prime_neuroptics" />
+            <Drop name="fang_prime_handle" />
+            <Drop name="redeemer_prime_blueprint" />
+            <Drop name="dethcube_prime_cerebrum" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_d3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_stock" />
+            <Drop name="ivara_prime_neuroptics" />
+            <Drop name="stradavar_prime_receiver" />
+            <Drop name="corinth_prime_receiver" />
+            <Drop name="ninkondi_prime_chain" />
+            <Drop name="dethcube_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_d4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="orthos_prime_handle" />
+            <Drop name="ninkondi_prime_chain" />
+            <Drop name="zakti_prime_barrel" />
+            <Drop name="dethcube_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_f1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="paris_prime_blueprint" />
+            <Drop name="fang_prime_blade" />
+            <Drop name="scindo_prime_blueprint" />
+            <Drop name="odonata_prime_blueprint" />
+            <Drop name="fragor_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_f2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="odonata_prime_systems" />
+            <Drop name="hikou_prime_stars" />
+            <Drop name="paris_prime_upper_limb" />
+            <Drop name="burston_prime_barrel" />
+            <Drop name="fang_prime_handle" />
+            <Drop name="vauban_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_g1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="latron_prime_blueprint" />
+            <Drop name="frost_prime_chassis" />
+            <Drop name="reaper_prime_handle" />
+            <Drop name="ember_prime_systems" />
+            <Drop name="forma_blueprint" />
+            <Drop name="glaive_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_g2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="bo_prime_blueprint" />
+            <Drop name="latron_prime_stock" />
+            <Drop name="wyrm_prime_cerebrum" />
+            <Drop name="frost_prime_systems" />
+            <Drop name="loki_prime_chassis" />
+            <Drop name="glaive_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_g3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="octavia_prime_neuroptics" />
+            <Drop name="paris_prime_upper_limb" />
+            <Drop name="zhuge_prime_string" />
+            <Drop name="forma_blueprint" />
+            <Drop name="panthera_prime_stock" />
+            <Drop name="guandao_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_g4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="fang_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="octavia_prime_neuroptics" />
+            <Drop name="inaros_prime_blueprint" />
+            <Drop name="titania_prime_neuroptics" />
+            <Drop name="guandao_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_h1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="paris_prime_blueprint" />
+            <Drop name="saryn_prime_systems" />
+            <Drop name="akstiletto_prime_barrel" />
+            <Drop name="nami_skyla_prime_handle" />
+            <Drop name="helios_prime_cerebrum" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_h2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="zephyr_prime_neuroptics" />
+            <Drop name="forma_blueprint" />
+            <Drop name="lex_prime_barrel" />
+            <Drop name="orthos_prime_blueprint" />
+            <Drop name="oberon_prime_blueprint" />
+            <Drop name="helios_prime_cerebrum" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_h3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="astilla_prime_receiver" />
+            <Drop name="nezha_prime_systems" />
+            <Drop name="paris_prime_string" />
+            <Drop name="forma_blueprint" />
+            <Drop name="titania_prime_blueprint" />
+            <Drop name="harrow_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_i1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="fang_prime_blade" />
+            <Drop name="forma_blueprint" />
+            <Drop name="pandero_prime_blueprint" />
+            <Drop name="burston_prime_barrel" />
+            <Drop name="karyst_prime_handle" />
+            <Drop name="ivara_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_k1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="fang_prime_blueprint" />
+            <Drop name="burston_prime_stock" />
+            <Drop name="odonata_prime_harness" />
+            <Drop name="tigris_prime_barrel" />
+            <Drop name="trinity_prime_blueprint" />
+            <Drop name="kavasa_prime_buckle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_k2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_barrel" />
+            <Drop name="rubico_prime_receiver" />
+            <Drop name="zephyr_prime_neuroptics" />
+            <Drop name="braton_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="kogake_prime_gauntlet" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_k3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="paris_prime_upper_limb" />
+            <Drop name="rubico_prime_receiver" />
+            <Drop name="tiberon_prime_blueprint" />
+            <Drop name="wukong_prime_chassis" />
+            <Drop name="kronen_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_k4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="dual_kamas_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="nova_prime_neuroptics" />
+            <Drop name="soma_prime_receiver" />
+            <Drop name="trinity_prime_blueprint" />
+            <Drop name="kavasa_prime_buckle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_k5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="helios_prime_carapace" />
+            <Drop name="mirage_prime_chassis" />
+            <Drop name="akbolto_prime_barrel" />
+            <Drop name="banshee_prime_systems" />
+            <Drop name="kogake_prime_gauntlet" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_k6_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="aksomati_prime_receiver" />
+            <Drop name="atlas_prime_blueprint" />
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="gara_prime_chassis" />
+            <Drop name="paris_prime_grip" />
+            <Drop name="karyst_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_k7_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="baza_prime_receiver" />
+            <Drop name="guandao_prime_blade" />
+            <Drop name="paris_prime_lower_limb" />
+            <Drop name="forma_blueprint" />
+            <Drop name="octavia_prime_chassis" />
+            <Drop name="karyst_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_k8_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="lex_prime_receiver" />
+            <Drop name="braton_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="trinity_prime_neuroptics" />
+            <Drop name="limbo_prime_neuroptics" />
+            <Drop name="kavasa_prime_buckle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_l1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="destreza_prime_handle" />
+            <Drop name="forma_blueprint" />
+            <Drop name="kogake_prime_boot" />
+            <Drop name="equinox_prime_neuroptics" />
+            <Drop name="zhuge_prime_blueprint" />
+            <Drop name="limbo_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_l2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="equinox_prime_chassis" />
+            <Drop name="pyrana_prime_barrel" />
+            <Drop name="redeemer_prime_blade" />
+            <Drop name="braton_prime_receiver" />
+            <Drop name="tekko_prime_blueprint" />
+            <Drop name="limbo_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_l3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="lex_prime_barrel" />
+            <Drop name="pyrana_prime_barrel" />
+            <Drop name="dual_kamas_prime_blueprint" />
+            <Drop name="kavasa_prime_band" />
+            <Drop name="trinity_prime_chassis" />
+            <Drop name="limbo_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_m1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="lex_prime_receiver" />
+            <Drop name="boar_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="soma_prime_blueprint" />
+            <Drop name="dakra_prime_blueprint" />
+            <Drop name="mag_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_m2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="dakra_prime_handle" />
+            <Drop name="nova_prime_neuroptics" />
+            <Drop name="soma_prime_barrel" />
+            <Drop name="boar_prime_barrel" />
+            <Drop name="forma_blueprint" />
+            <Drop name="mag_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_m3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="paris_prime_blueprint" />
+            <Drop name="silva_and_aegis_prime_hilt" />
+            <Drop name="oberon_prime_blueprint" />
+            <Drop name="rubico_prime_stock" />
+            <Drop name="mesa_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_m4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="akjagara_prime_blueprint" />
+            <Drop name="equinox_prime_chassis" />
+            <Drop name="paris_prime_blueprint" />
+            <Drop name="destreza_prime_blueprint" />
+            <Drop name="stradavar_prime_barrel" />
+            <Drop name="mesa_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_m5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="atlas_prime_blueprint" />
+            <Drop name="burston_prime_stock" />
+            <Drop name="redeemer_prime_blade" />
+            <Drop name="stradavar_prime_barrel" />
+            <Drop name="titania_prime_blueprint" />
+            <Drop name="mesa_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_m6_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="inaros_prime_systems" />
+            <Drop name="akjagara_prime_receiver" />
+            <Drop name="dethcube_prime_carapace" />
+            <Drop name="mesa_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_m7_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="akbolto_prime_blueprint" />
+            <Drop name="banshee_prime_neuroptics" />
+            <Drop name="kogake_prime_boot" />
+            <Drop name="euphona_prime_barrel" />
+            <Drop name="forma_blueprint" />
+            <Drop name="mirage_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_n1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="nekros_prime_chassis" />
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="fang_prime_blade" />
+            <Drop name="akbronco_prime_link" />
+            <Drop name="forma_blueprint" />
+            <Drop name="nova_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_n10_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_stock" />
+            <Drop name="forma_blueprint" />
+            <Drop name="orthos_prime_handle" />
+            <Drop name="inaros_prime_blueprint" />
+            <Drop name="titania_prime_neuroptics" />
+            <Drop name="nezha_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_n2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="paris_prime_upper_limb" />
+            <Drop name="spira_prime_blueprint" />
+            <Drop name="carrier_prime_systems" />
+            <Drop name="helios_prime_blueprint" />
+            <Drop name="kavasa_prime_band" />
+            <Drop name="nekros_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_n3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="sybaris_prime_stock" />
+            <Drop name="burston_prime_receiver" />
+            <Drop name="valkyr_prime_blueprint" />
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="nekros_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_n4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="gram_prime_blade" />
+            <Drop name="atlas_prime_systems" />
+            <Drop name="ivara_prime_blueprint" />
+            <Drop name="ninkondi_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_n5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="stradavar_prime_stock" />
+            <Drop name="zhuge_prime_string" />
+            <Drop name="braton_prime_receiver" />
+            <Drop name="ivara_prime_blueprint" />
+            <Drop name="ninkondi_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_n6_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="aksomati_prime_receiver" />
+            <Drop name="fang_prime_blade" />
+            <Drop name="zhuge_prime_grip" />
+            <Drop name="inaros_prime_chassis" />
+            <Drop name="stradavar_prime_barrel" />
+            <Drop name="nezha_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_n7_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="lex_prime_barrel" />
+            <Drop name="octavia_prime_systems" />
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="pangolin_prime_blade" />
+            <Drop name="ivara_prime_blueprint" />
+            <Drop name="nidus_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_n8_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="aksomati_prime_blueprint" />
+            <Drop name="astilla_prime_receiver" />
+            <Drop name="pandero_prime_blueprint" />
+            <Drop name="titania_prime_neuroptics" />
+            <Drop name="zakti_prime_barrel" />
+            <Drop name="nezha_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_n9_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="redeemer_prime_blade" />
+            <Drop name="burston_prime_stock" />
+            <Drop name="akjagara_prime_receiver" />
+            <Drop name="mesa_prime_blueprint" />
+            <Drop name="nami_skyla_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_o1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="ballistica_prime_lower_limb" />
+            <Drop name="burston_prime_blueprint" />
+            <Drop name="rubico_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="akbolto_prime_barrel" />
+            <Drop name="oberon_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_o2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="bo_prime_blueprint" />
+            <Drop name="volt_prime_blueprint" />
+            <Drop name="wyrm_prime_cerebrum" />
+            <Drop name="forma_blueprint" />
+            <Drop name="loki_prime_chassis" />
+            <Drop name="odonata_prime_wings" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_p1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="fang_prime_blade" />
+            <Drop name="helios_prime_carapace" />
+            <Drop name="sybaris_prime_stock" />
+            <Drop name="braton_prime_receiver" />
+            <Drop name="forma_blueprint" />
+            <Drop name="pyrana_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_p2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="tipedo_prime_blueprint" />
+            <Drop name="ballistica_prime_receiver" />
+            <Drop name="gram_prime_blueprint" />
+            <Drop name="pyrana_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_p3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="atlas_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="stradavar_prime_stock" />
+            <Drop name="akjagara_prime_link" />
+            <Drop name="burston_prime_barrel" />
+            <Drop name="panthera_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_p4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_barrel" />
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="titania_prime_chassis" />
+            <Drop name="equinox_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="panthera_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_p5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="atlas_prime_blueprint" />
+            <Drop name="bronco_prime_receiver" />
+            <Drop name="lex_prime_blueprint" />
+            <Drop name="guandao_prime_blueprint" />
+            <Drop name="tekko_prime_blueprint" />
+            <Drop name="pangolin_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_r1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="mesa_prime_chassis" />
+            <Drop name="hydroid_prime_chassis" />
+            <Drop name="burston_prime_barrel" />
+            <Drop name="ballistica_prime_receiver" />
+            <Drop name="redeemer_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_s1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="paris_prime_string" />
+            <Drop name="hikou_prime_blueprint" />
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="paris_prime_grip" />
+            <Drop name="forma_blueprint" />
+            <Drop name="spira_prime_pouch" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_s10_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_blueprint" />
+            <Drop name="dethcube_prime_systems" />
+            <Drop name="mesa_prime_chassis" />
+            <Drop name="baza_prime_barrel" />
+            <Drop name="orthos_prime_blueprint" />
+            <Drop name="stradavar_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_s11_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="fang_prime_blade" />
+            <Drop name="forma_blueprint" />
+            <Drop name="volnus_prime_blueprint" />
+            <Drop name="orthos_prime_blueprint" />
+            <Drop name="pangolin_prime_blade" />
+            <Drop name="strun_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_s2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="carrier_prime_systems" />
+            <Drop name="akbronco_prime_blueprint" />
+            <Drop name="nyx_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="kavasa_prime_band" />
+            <Drop name="soma_prime_stock" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_s3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="carrier_prime_systems" />
+            <Drop name="akbronco_prime_blueprint" />
+            <Drop name="paris_prime_string" />
+            <Drop name="ash_prime_blueprint" />
+            <Drop name="soma_prime_receiver" />
+            <Drop name="spira_prime_pouch" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_s4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="lex_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="paris_prime_blueprint" />
+            <Drop name="trinity_prime_chassis" />
+            <Drop name="kavasa_prime_kubrow_collar_blueprint" />
+            <Drop name="saryn_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_s5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="carrier_prime_carapace" />
+            <Drop name="burston_prime_receiver" />
+            <Drop name="fang_prime_blade" />
+            <Drop name="akbronco_prime_link" />
+            <Drop name="galatine_prime_handle" />
+            <Drop name="spira_prime_blade" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_s6_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="fang_prime_blade" />
+            <Drop name="dual_kamas_prime_blueprint" />
+            <Drop name="kavasa_prime_band" />
+            <Drop name="valkyr_prime_neuroptics" />
+            <Drop name="spira_prime_pouch" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_s7_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="galatine_prime_blade" />
+            <Drop name="lex_prime_blueprint" />
+            <Drop name="mirage_prime_chassis" />
+            <Drop name="akbolto_prime_link" />
+            <Drop name="paris_prime_grip" />
+            <Drop name="sybaris_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_s8_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_barrel" />
+            <Drop name="forma_blueprint" />
+            <Drop name="gram_prime_blade" />
+            <Drop name="orthos_prime_blueprint" />
+            <Drop name="rubico_prime_barrel" />
+            <Drop name="stradavar_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_s9_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="burston_prime_stock" />
+            <Drop name="forma_blueprint" />
+            <Drop name="sybaris_prime_stock" />
+            <Drop name="oberon_prime_blueprint" />
+            <Drop name="tigris_prime_receiver" />
+            <Drop name="silva_and_aegis_prime_guard" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_t1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="akbronco_prime_blueprint" />
+            <Drop name="burston_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="ballistica_prime_upper_limb" />
+            <Drop name="valkyr_prime_neuroptics" />
+            <Drop name="tigris_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_t2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="valkyr_prime_blueprint" />
+            <Drop name="lex_prime_barrel" />
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="silva_and_aegis_prime_blueprint" />
+            <Drop name="tiberon_prime_stock" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_t3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_stock" />
+            <Drop name="galatine_prime_blade" />
+            <Drop name="oberon_prime_chassis" />
+            <Drop name="forma_blueprint" />
+            <Drop name="nekros_prime_blueprint" />
+            <Drop name="tigris_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_t4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="paris_prime_lower_limb" />
+            <Drop name="tekko_prime_gauntlet" />
+            <Drop name="zakti_prime_receiver" />
+            <Drop name="dethcube_prime_carapace" />
+            <Drop name="karyst_prime_handle" />
+            <Drop name="titania_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_t5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="corinth_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="paris_prime_lower_limb" />
+            <Drop name="titania_prime_neuroptics" />
+            <Drop name="zhuge_prime_blueprint" />
+            <Drop name="tenora_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_t7_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="gara_prime_systems" />
+            <Drop name="ivara_prime_systems" />
+            <Drop name="strun_prime_barrel" />
+            <Drop name="titania_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_t8_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="akbronco_prime_blueprint" />
+            <Drop name="gara_prime_systems" />
+            <Drop name="zakti_prime_receiver" />
+            <Drop name="astilla_prime_stock" />
+            <Drop name="burston_prime_barrel" />
+            <Drop name="titania_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_v1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="paris_prime_upper_limb" />
+            <Drop name="paris_prime_lower_limb" />
+            <Drop name="burston_prime_stock" />
+            <Drop name="volt_prime_systems" />
+            <Drop name="forma_blueprint" />
+            <Drop name="fragor_prime_handle" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_v2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="fang_prime_blueprint" />
+            <Drop name="lex_prime_barrel" />
+            <Drop name="paris_prime_lower_limb" />
+            <Drop name="forma_blueprint" />
+            <Drop name="paris_prime_upper_limb" />
+            <Drop name="vauban_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_v3_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="paris_prime_lower_limb" />
+            <Drop name="cernos_prime_upper_limb" />
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="tigris_prime_barrel" />
+            <Drop name="helios_prime_systems" />
+            <Drop name="valkyr_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_v4_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="spira_prime_blueprint" />
+            <Drop name="nekros_prime_chassis" />
+            <Drop name="venka_prime_blades" />
+            <Drop name="tigris_prime_barrel" />
+            <Drop name="helios_prime_blueprint" />
+            <Drop name="vauban_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_v5_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="akbronco_prime_blueprint" />
+            <Drop name="banshee_prime_neuroptics" />
+            <Drop name="lex_prime_blueprint" />
+            <Drop name="akbolto_prime_barrel" />
+            <Drop name="ballistica_prime_upper_limb" />
+            <Drop name="valkyr_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_v6_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="cernos_prime_grip" />
+            <Drop name="nikana_prime_blueprint" />
+            <Drop name="venka_prime_blades" />
+            <Drop name="forma_blueprint" />
+            <Drop name="saryn_prime_blueprint" />
+            <Drop name="valkyr_prime_chassis" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_v7_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="carrier_prime_blueprint" />
+            <Drop name="fragor_prime_head" />
+            <Drop name="vectis_prime_barrel" />
+            <Drop name="akstiletto_prime_link" />
+            <Drop name="ash_prime_blueprint" />
+            <Drop name="vauban_prime_neuroptics" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_v8_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="ash_prime_chassis" />
+            <Drop name="bronco_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="fragor_prime_handle" />
+            <Drop name="vectis_prime_stock" />
+            <Drop name="vauban_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_w1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="gram_prime_blade" />
+            <Drop name="mirage_prime_neuroptics" />
+            <Drop name="akbolto_prime_link" />
+            <Drop name="fang_prime_handle" />
+            <Drop name="wukong_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_w2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="rubico_prime_receiver" />
+            <Drop name="stradavar_prime_receiver" />
+            <Drop name="baza_prime_barrel" />
+            <Drop name="fang_prime_handle" />
+            <Drop name="wukong_prime_blueprint" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_z1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="fang_prime_handle" />
+            <Drop name="akbronco_prime_blueprint" />
+            <Drop name="mirage_prime_neuroptics" />
+            <Drop name="forma_blueprint" />
+            <Drop name="cernos_prime_blueprint" />
+            <Drop name="zephyr_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>lith_z2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="akbronco_prime_blueprint" />
+            <Drop name="forma_blueprint" />
+            <Drop name="nami_skyla_prime_blueprint" />
+            <Drop name="helios_prime_systems" />
+            <Drop name="silva_and_aegis_prime_blueprint" />
+            <Drop name="zephyr_prime_systems" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>meso_a1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="ballistica_prime_lower_limb" />
+            <Drop name="orthos_prime_handle" />
+            <Drop name="sybaris_prime_stock" />
+            <Drop name="forma_blueprint" />
+            <Drop name="kronen_prime_handle" />
+            <Drop name="akjagara_prime_barrel" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>meso_a2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="forma_blueprint" />
+            <Drop name="tipedo_prime_blueprint" />
+            <Drop name="zhuge_prime_grip" />
+            <Drop name="equinox_prime_blueprint" />
+            <Drop name="zephyr_prime_chassis" />
+            <Drop name="akbolto_prime_receiver" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>meso_b1_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="dakra_prime_handle" />
+            <Drop name="orthos_prime_handle" />
+            <Drop name="forma_blueprint" />
+            <Drop name="mag_prime_chassis" />
+            <Drop name="orthos_prime_blueprint" />
+            <Drop name="boar_prime_stock" />
+        </Drops>
+    </Relic>
+    <Relic>
+        <Type>meso_b2_relic</Type>
+        <Vaulted>vaulted</Vaulted>
+        <Drops>
+            <Drop name="braton_prime_blueprint" />
+            <Drop name="oberon_prime_chassis" />
+            <Drop name="silva_and_aegis_prime_hilt" />
+            <Drop name="hydroid_prime_blueprint" />
+            <Drop name="kronen_prime_handle" />
+            <Drop name="banshee_prime_chassis" />
+        </Drops>
+    </Relic>
+</Relics>

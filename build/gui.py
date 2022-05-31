@@ -29,7 +29,7 @@ def relative_to_assets(path: str) -> Path:
 
 def get_relic():
     final_relic = pb.get_best_relic(pb.get_items_id(
-        pb.parseXML('E:\GIT\plat_bot\items.xml')))
+        pb.parseXML('E:\GIT\plat_bot\items - Copy.xml')))
     i = 0
     curr_top_ten = dict(sorted(pb.top_ten.items(), key=lambda item: item[1]))
     print(curr_top_ten)
@@ -126,41 +126,55 @@ button_1.place(
     width=104.0,
     height=22.0
 )
-
+vaulted_var = IntVar()
+normal_drops_var = IntVar()
 
 def read_settings():
-
+    global vaulted_var, normal_drops_var
     if os.path.isfile('settings.txt'):  
         with open('settings.txt', 'r') as f:
             settings = f.readlines()
-    
-        vaulted_temp = int(settings[0])
-        normal_drops_temp = int(settings[1])
+        if(len(settings) < 2):
+            vaulted_var = 0
+            normal_drops_var = 0
+        else:
+            vaulted_temp = int(settings[0])
+            normal_drops_temp = int(settings[1])
+            print(vaulted_temp)
+            print(normal_drops_temp)
+        vaulted_var.set(vaulted_temp)
+        normal_drops_var.set(normal_drops_temp)
     else:
         with open('settings.txt', 'w') as f:
             f.write("0\n0")
         vaulted_temp = 0
         normal_drops_temp = 0
         print("no file")
-    global vaulted_var, normal_drops_var
-    vaulted_var = IntVar()
-    normal_drops_var = IntVar()
-    vaulted_var.set(vaulted_temp)
-    normal_drops_var.set(normal_drops_temp)
+    
+
+
 
 
 
 def settings_window():
     global vaulted_var, normal_drops_var
     settings = Toplevel(window)
-    settings.geometry("100x400")
+    settings.geometry("400x100")
     settings.title("Settings")
     read_settings()
+    print("reading settings")
+    print(vaulted_var.get())
+    print(normal_drops_var.get())
     vaulted = Checkbutton(settings, text="Vaulted", variable=vaulted_var, onvalue=1, offvalue = 0)
     vaulted.grid(row=0, column=0)
     normal_drops = Checkbutton(settings, text="Normal Drops (non relic)", variable=normal_drops_var, onvalue=1, offvalue = 0)
     normal_drops.grid(row=1, column=0)
     settings.mainloop()
+    with open('settings.txt', 'w') as f:
+        f.write(str(vaulted_var.get()) + "\n")
+        f.write(str(normal_drops_var.get()))
+
+
 
 
 menubar = Menu(window)
@@ -175,10 +189,5 @@ window.config(menu=menubar)
 window.resizable(False, False)
 
 window.mainloop()
-
-
-with open('settings.txt', 'w') as f:
-    f.write(str(vaulted_var.get()) + "\n")
-    f.write(str(normal_drops_var.get()))
 
 
