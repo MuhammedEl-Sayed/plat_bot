@@ -29,7 +29,7 @@ def relative_to_assets(path: str) -> Path:
 
 def get_relic():
     final_relic = pb.get_best_relic(pb.get_items_id(
-        pb.parseXML('E:\GIT\plat_bot\items - Copy.xml')))
+        pb.parseXML('E:\GIT\plat_bot\items - Copy.xml'), vaulted_var.get()), vaulted_var.get())
     i = 0
     curr_top_ten = dict(sorted(pb.top_ten.items(), key=lambda item: item[1]))
     print(curr_top_ten)
