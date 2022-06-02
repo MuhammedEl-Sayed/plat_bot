@@ -14,7 +14,7 @@ import plat_bot as pb
 import random
 import os
 from time import sleep
-
+from PIL import ImageTk, Image
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path("./assets")
 
@@ -48,7 +48,6 @@ def thread_relic():
     relic_thread = threading.Thread(target=get_relic)
     photo_thread = threading.Thread(target=test_random())
     photo_thread.daemon = True
-
     relic_thread.daemon = True
     relic_thread.start()
     window.after(50, check_thread_relic)
@@ -62,9 +61,10 @@ def check_thread_relic():
 
 
 def test_random():
-
-    temp_photo = PhotoImage(file=str(random_icon()))
-    temp_photo = temp_photo.subsample(2, 2)
+    image = Image.open(str(str(random_icon())))
+    image = image.resize((220, 250), Image.ANTIALIAS)
+    temp_photo = ImageTk.PhotoImage(image)
+    
     relic_image_label.config(image=temp_photo)
     relic_image_label.image = temp_photo
     sleep(0.05)
@@ -81,27 +81,29 @@ def random_icon():
 
 window = Tk()
 
-window.geometry("535x336")
-window.configure(bg="#FFFFFF")
-
+window.geometry("800x800")
+window.configure(bg="#000000")
+window.iconbitmap(str(relative_to_assets("PlatinumLarge.ico")))
+window.title("Platinum Bot")
 canvas = Canvas(
     window,
-    bg="#FFFFFF",
-    height=336,
-    width=535,
+    bg="#000015",
+    height=800,
+    width=800,
     bd=0,
     highlightthickness=0,
     relief="ridge"
 )
 
 
-canvas.place(x=0, y=0)
+canvas.place(x=0, y=
+0)
 ## GUI SETUP HERE ##
 
 relic_image = PhotoImage(file=str(random_icon()))
 relic_image = relic_image.subsample(2, 2)
 relic_image_label = Label(window, image=relic_image, anchor="center")
-relic_image_label.place(x=150, y=50)
+relic_image_label.place(x=300, y=300)
 
 
 text = Label(window, text="The Best Relic is: ", font=("Arial", 12))
