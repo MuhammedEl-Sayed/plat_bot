@@ -10,7 +10,10 @@ from pathlib import Path
 from tkinter import *
 from ctypes import windll
 from PIL import ImageTk, Image
+from tkinter import ttk
+from pygments import highlight
 import requests as rq
+
 
 GWL_EXSTYLE = -20
 WS_EX_APPWINDOW = 0x00040000
@@ -22,39 +25,15 @@ ASSETS_PATH = OUTPUT_PATH / Path("./assets")
 
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
-def round_rectangle(x1, y1, x2, y2, radius=25, **kwargs):
-        
-    points = [x1+radius, y1,
-              x1+radius, y1,
-              x2-radius, y1,
-              x2-radius, y1,
-              x2, y1,
-              x2, y1+radius,
-              x2, y1+radius,
-              x2, y2-radius,
-              x2, y2-radius,
-              x2, y2,
-              x2-radius, y2,
-              x2-radius, y2,
-              x1+radius, y2,
-              x1+radius, y2,
-              x1, y2,
-              x1, y2-radius,
-              x1, y2-radius,
-              x1, y1+radius,
-              x1, y1+radius,
-              x1, y1]
-
-    return canvas.create_polygon(points, **kwargs, smooth=True)
 
 
 root = Tk()
 window = Toplevel(root)
 root.attributes("-alpha", 0.0)
-window.geometry("600x800")
-window.configure(bg = "#FFFFFF")
+window.geometry("400x600")
+window.configure(bg="#FFFFFF")
 window.update_idletasks()
-#window.overrideredirect(1)
+window.overrideredirect(1)
 window.configure(borderwidth=0)
 window.attributes('-transparentcolor', 'grey15')
 
@@ -72,10 +51,13 @@ window.bind('<Escape>', lambda e: window.destroy())
 window.bind('<Button-1>', lambda e: clickwindow(e))
 window.bind('<B1-Motion>', lambda e: dragwindow(e))
 def onRootIconify(event): window.withdraw()
+
+
 root.bind("<Unmap>", onRootIconify)
 def onRootDeiconify(event): window.deiconify()
-root.bind("<Map>", onRootDeiconify)
 
+
+root.bind("<Map>", onRootDeiconify)
 
 
 def clickwindow(event):
@@ -84,20 +66,23 @@ def clickwindow(event):
     offsety = event.y
     return offsetx, offsety
 
+
 def dragwindow(event):
-    window.geometry("+{0}+{1}".format(event.x_root - offsetx, event.y_root - offsety))
+    window.geometry("+{0}+{1}".format(event.x_root -
+                    offsetx, event.y_root - offsety))
+
 
 canvas = Canvas(
     window,
-    bg = "#000015",
-    height = 800,
-    width = 600,
-    bd = 0,
-    highlightthickness = 0,
-    relief = "ridge"
+    bg="#000015",
+    height=600,
+    width=400,
+    bd=0,
+    highlightthickness=0,
+    relief="ridge"
 )
 
-canvas.place(x = 0, y = 0)
+canvas.place(x=0, y=0)
 button_image_1 = PhotoImage(
     file=relative_to_assets("button_1.png"))
 button_1 = Button(
@@ -113,24 +98,129 @@ button_1.place(
     width=85.0,
     height=56.0
 )
-#DropDOWN
-canvas.create_rectangle(
-    221.0,
-    117.0,
-    376.0,
-    351.0,
-    fill="#111111",
-    outline="")
-# Minimize 
+
+
+img1 = PhotoImage("frameFocusBorder", data="""
+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
+Ry/99NIz//oGrZpUUEAAOw==""")
+
+img2 = PhotoImage("frameBorder", data="""
+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""")
+
+round_style = ttk.Style()
+round_style.element_create("RoundedFrame", "image", "frameBorder",
+                           ("focus", "frameFocusBorder"), border=16, sticky="nsew")
+
+round_style.layout("RoundedFrame", [("RoundedFrame", {"sticky": "nsew"})])
+round_style.configure("TEntry", borderwidth=0,
+                      highlightbackground='#000015', highlightthickness=0, bg='#000015', fg='#000015')
+
+
+# DropDOWN
+dropdown_options = [
+    "Unvaulted Only",
+    "Vaulted Only",
+    "All"
+]
+dropdown_text = StringVar(window)
+dropdown_text.set(dropdown_options[0])
+dropdown = OptionMenu(window, dropdown_text, *dropdown_options)
+dropdown.configure(
+    bg='#000015', highlightbackground='#000015')
+dropdown.place(x=150, y=100)
+
+frame_dropdown = ttk.Frame(window, width=200, height=200,
+                           style='TEntry')
+frame_dropdown.place(x=150, y=100)
+
 
 def on_enter_exit(event):
     exit_button['background'] = '#E75757'
+
+
 def on_exit_exit(event):
     exit_button['background'] = '#000015'
+
+
 def on_enter_mini(event):
     minimize_button['background'] = '#8E8E8E'
+
+
 def on_exit_mini(event):
     minimize_button['background'] = '#000015'
+
+
 exit_button = Button(
     window,
     text="X",
@@ -143,7 +233,7 @@ exit_button = Button(
 )
 exit_button.bind("<Enter>", on_enter_exit)
 exit_button.bind("<Leave>", on_exit_exit)
-exit_button.place(relx=0.9, y=0.08, width=60.0, height=60.0, anchor='nw')
+exit_button.place(relx=0.9, y=0.08, width=40.0, height=40.0, anchor='nw')
 
 minimize_button = Button(
     window,
@@ -158,9 +248,9 @@ minimize_button = Button(
 )
 minimize_button.bind("<Enter>", on_enter_mini)
 minimize_button.bind("<Leave>", on_exit_mini)
-minimize_button.place(relx=0.8, y=0.08, width=60.0, height=60.0, anchor='nw')
+minimize_button.place(relx=0.8, y=0.08, width=40.0, height=40.0, anchor='nw')
 icon = Image.open(relative_to_assets("icon.png"))
-icon = icon.resize((30, 30), Image.ANTIALIAS)
+icon = icon.resize((20, 20), Image.ANTIALIAS)
 icon = ImageTk.PhotoImage(icon)
 icon_label = Label(
     window,
@@ -170,12 +260,12 @@ icon_label = Label(
     highlightthickness=0,
     relief="flat",
     borderwidth=0,
-)   
+)
 icon_label.place(relx=0.02, rely=0.02, width=30, height=30)
 
 canvas.create_text(
-    55.0,
-    22.0,
+    40.0,
+    18.0,
     anchor="nw",
     text="Platinum Bot",
     fill="#FFFFFF",
