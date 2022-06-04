@@ -43,9 +43,8 @@ def get_relic():
         tempText = Label(window, text="Drop #" + str(i) +
                          ": " + key + " - " + str(value), font=("Arial", 10))
         tempText.grid(row=i, column=0)
-    text.config(text=final_relic)
-    text.grid(row=i+1, column=0)
-    relic_image_label.place_forget()
+    result_text.config(text=str(final_relic))
+
 
 
 def thread_relic():
@@ -63,7 +62,6 @@ def check_thread_relic():
         if photo_thread.is_alive() == False:
             test_random()
         window.after(50, check_thread_relic)
-
 
 def test_random():
     image = Image.open(str(str(random_icon())))
@@ -278,12 +276,13 @@ dropdown.configure(highlightthickness=0,
                    )
 dropdown.place(relx='0.5', rely='0.5', anchor='center')
 
+relic_image = Image.open(str(random_icon()))
+relic_image = relic_image.resize((220, 250), Image.ANTIALIAS)
+relic_image = ImageTk.PhotoImage(relic_image)
 
-relic_image = PhotoImage(file=str(random_icon()))
-relic_image = relic_image.subsample(2, 2)
 relic_image_label = Label(window, image=relic_image,
                           anchor="center", bg='#000015')
-relic_image_label.place(relx=0.3, rely=0.3)
+relic_image_label.place(relx=0.22, rely=0.3)
 
 search_image = Image.open(relative_to_assets('button_1.png'))
 search_image = search_image.resize((75, 50), Image.ANTIALIAS)
@@ -301,9 +300,12 @@ search_button.config(highlightthickness=0,
 
 search_button.place(relx=0.5, rely=0.8, anchor='center')
 
-
+result_text = StringVar()
 vaulted_var = IntVar()
 normal_drops_var = IntVar()
+
+result_text = Label(window, width=10, height=3,  bg='#000015', fg='#FFFFFF', font = "-family {Roboto Medium} -size 9 -weight bold ", highlightthickness=0, borderwidth=0)
+result_text.place(relx=0.6, rely=0.9, anchor='center')
 
 
 def on_enter_exit(event):
