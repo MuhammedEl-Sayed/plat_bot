@@ -13,8 +13,13 @@ from PIL import ImageTk, Image
 from tkinter import ttk
 from pygments import highlight
 import requests as rq
-
-
+from io import BytesIO
+import base64
+from time import sleep
+import threading
+import plat_bot as pb
+import random
+import os
 GWL_EXSTYLE = -20
 WS_EX_APPWINDOW = 0x00040000
 WS_EX_TOOLWINDOW = 0x00000080
@@ -25,6 +30,80 @@ ASSETS_PATH = OUTPUT_PATH / Path("./assets")
 
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
+
+
+def get_relic():
+    final_relic = pb.get_best_relic(pb.get_items_id(
+        pb.parseXML('E:\GIT\plat_bot\items - Copy.xml'), vaulted_var.get()), vaulted_var.get())
+    i = 0
+    curr_top_ten = dict(sorted(pb.top_ten.items(), key=lambda item: item[1]))
+    print(curr_top_ten)
+    for key, value in curr_top_ten.items():
+        i += 1
+        tempText = Label(window, text="Drop #" + str(i) +
+                         ": " + key + " - " + str(value), font=("Arial", 10))
+        tempText.grid(row=i, column=0)
+    text.config(text=final_relic)
+    text.grid(row=i+1, column=0)
+    relic_image_label.place_forget()
+
+
+def thread_relic():
+    global relic_thread, photo_thread
+    relic_thread = threading.Thread(target=get_relic)
+    photo_thread = threading.Thread(target=test_random())
+    photo_thread.daemon = True
+    relic_thread.daemon = True
+    relic_thread.start()
+    window.after(50, check_thread_relic)
+
+
+def check_thread_relic():
+    if relic_thread.is_alive():
+        if photo_thread.is_alive() == False:
+            test_random()
+        window.after(50, check_thread_relic)
+
+
+def test_random():
+    image = Image.open(str(str(random_icon())))
+    image = image.resize((220, 250), Image.ANTIALIAS)
+    temp_photo = ImageTk.PhotoImage(image)
+
+    relic_image_label.config(image=temp_photo)
+    relic_image_label.image = temp_photo
+    sleep(0.05)
+    window.update()
+
+
+def random_icon():
+    global img
+    img = random.choice(
+        list(Path("E:\GIT\plat_bot\images\\relics").glob("*.png")))
+    return img
+
+
+def read_settings():
+    global vaulted_var, normal_drops_var
+    if os.path.isfile('settings.txt'):
+        with open('settings.txt', 'r') as f:
+            settings = f.readlines()
+        if(len(settings) < 2):
+            vaulted_var = 0
+            normal_drops_var = 0
+        else:
+            vaulted_temp = int(settings[0])
+            normal_drops_temp = int(settings[1])
+            print(vaulted_temp)
+            print(normal_drops_temp)
+        vaulted_var.set(vaulted_temp)
+        normal_drops_var.set(normal_drops_temp)
+    else:
+        with open('settings.txt', 'w') as f:
+            f.write("0\n0")
+        vaulted_temp = 0
+        normal_drops_temp = 0
+        print("no file")
 
 
 root = Tk()
@@ -72,9 +151,10 @@ def dragwindow(event):
                     offsetx, event.y_root - offsety))
 
 
+root.attributes('-transparentcolor', 'grey15')
 canvas = Canvas(
     window,
-    bg="#000015",
+    bg="grey15",
     height=600,
     width=400,
     bd=0,
@@ -83,6 +163,8 @@ canvas = Canvas(
 )
 
 canvas.place(x=0, y=0)
+
+
 button_image_1 = PhotoImage(
     file=relative_to_assets("button_1.png"))
 button_1 = Button(
@@ -101,82 +183,55 @@ button_1.place(
 
 
 img1 = PhotoImage("frameFocusBorder", data="""
-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
-Ry/99NIz//oGrZpUUEAAOw==""")
+R0lGODlhQABAAOYAAAAAFWtpazs5O0NBQ1NRU0tJS2NhY1tZW3Nxc4OBg0tJ
+TGVjZmRiZkdGSDw6QDQyOUdFTC0sMkA/RTY1PB8eJyYlLwwLHB0bOBEQIRQT
+IwYFGgYFGAkIGygnSQAAFAEBFgEBFQEBFAEBEgICFwICFgMDFwMDFgQEGAQE
+FwUFGAYGGQcHGgcHGQoKGwsLHQsLHAwMHQ4OHhISIhERIBQUIBsbKQABFQQF
+GB8gLBYXICQlLDc4PTM0ODk6PiYoLzc5PTAyNEVHR09RUDs9O0NFQ1NVU0tN
+S2NlY1tdW1pcWnt9e3N1c2tta////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAUAAE0A
+LAAAAABAAEAAAAf/gACCg4SFhoeIiYqLjI2Oj5CRkpOUlZaOE0IBR0xHAZsB
+nZ+eoqClpJ6mqZ5CE5RCSBEkl48kEUgKkC0BObSUFAEpjS0Gs76VR8KLAceX
+JMyKQhTNlzlCiSkH1LRIyoY/Q9uXAj2ISMbilBpIiNDpyIhH75buhCD185FH
+JYYZ8vmTAsBAB6AEDHwAHR3J0O9fQkgCCRpE+HDRwoYVIQ4kNDHjo4uF/Hl0
+FJHjwZGNQBISiXLZxkEdWypSOYilzHYvBcW8eYimIJs8C5WEeTKoIZ8AgBoV
+NFRn0aWDkCpd2rTgU6gApDrEWnUnVq1YB3W9ChVsWABjKQY1Gzbt2awM/0Nu
+hVrVxgq1PH1+uDGXak4ANkoweOuTxIkFb+uO6Gs0QFxCHAIQNKrhCAwQ9lgY
+EBBWgIHLhVYU0YYVSREYhkrsOHIB6oUjRlYYAuEiiWSjz5A4MGHoQwkIR4rx
+JGHgSBEZFmZ/wGGgU+uWF0IZkDADc+oaRQIgYGKgg4aKJDo0R3DkgI8WiEqc
+CHIgwJL3TDbFnx+qPv379vPPZxL/E4L3SwRwgBExWAdACIV8oIIR7f2nRAIQ
+RijhhBRWaGECSiixBAICGlGBNwCI0BsGRhRRHBMI/Afgiiy26OKKKr63XXBF
+FKADQR54cMgHLxBBwGgGFCdkcEQOaWSRSA5ZpGMBBxRBABEP8EOIjomQwAIP
+DRhhBAFbckmAl2B2KeaXY4ZJphEFDAAEDQYKkuMiIGwAwggqvJABDHfmieee
+evbJ5595rrACCmwa8iYkmCUKgKKMLupoo5C2aSiVb00pAqUABAIAOw==""")
+
 
 img2 = PhotoImage("frameBorder", data="""
-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""")
+R0lGODlhQABAAOYAAAAAFWtpazs5O0NBQ1NRU0tJS2NhY1tZW3Nxc4OBg0tJ
+TGVjZmRiZkdGSDw6QDQyOUdFTC0sMkA/RTY1PB8eJyYlLwwLHB0bOBEQIRQT
+IwYFGgYFGAkIGygnSQAAFAEBFgEBFQEBFAEBEgICFwICFgMDFwMDFgQEGAQE
+FwUFGAYGGQcHGgcHGQoKGwsLHQsLHAwMHQ4OHhISIhERIBQUIBsbKQABFQQF
+GB8gLBYXICQlLDc4PTM0ODk6PiYoLzc5PTAyNEVHR09RUDs9O0NFQ1NVU0tN
+S2NlY1tdW1pcWnt9e3N1c2tta////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAUAAE0A
+LAAAAABAAEAAAAf/gACCg4SFhoeIiYqLjI2Oj5CRkpOUlZaOE0IBR0xHAZsB
+nZ+eoqClpJ6mqZ5CE5RCSBEkl48kEUgKkC0BObSUFAEpjS0Gs76VR8KLAceX
+JMyKQhTNlzlCiSkH1LRIyoY/Q9uXAj2ISMbilBpIiNDpyIhH75buhCD185FH
+JYYZ8vmTAsBAB6AEDHwAHR3J0O9fQkgCCRpE+HDRwoYVIQ4kNDHjo4uF/Hl0
+FJHjwZGNQBISiXLZxkEdWypSOYilzHYvBcW8eYimIJs8C5WEeTKoIZ8AgBoV
+NFRn0aWDkCpd2rTgU6gApDrEWnUnVq1YB3W9ChVsWABjKQY1Gzbt2awM/0Nu
+hVrVxgq1PH1+uDGXak4ANkoweOuTxIkFb+uO6Gs0QFxCHAIQNKrhCAwQ9lgY
+EBBWgIHLhVYU0YYVSREYhkrsOHIB6oUjRlYYAuEiiWSjz5A4MGHoQwkIR4rx
+JGHgSBEZFmZ/wGGgU+uWF0IZkDADc+oaRQIgYGKgg4aKJDo0R3DkgI8WiEqc
+CHIgwJL3TDbFnx+qPv379vPPZxL/E4L3SwRwgBExWAdACIV8oIIR7f2nRAIQ
+RijhhBRWaGECSiixBAICGlGBNwCI0BsGRhRRHBMI/Afgiiy26OKKKr63XXBF
+FKADQR54cMgHLxBBwGgGFCdkcEQOaWSRSA5ZpGMBBxRBABEP8EOIjomQwAIP
+DRhhBAFbckmAl2B2KeaXY4ZJphEFDAAEDQYKkuMiIGwAwggqvJABDHfmieee
+evbJ5595rrACCmwa8iYkmCUKgKKMLupoo5C2aSiVb00pAqUABAIAOw==""")
 
 round_style = ttk.Style()
 round_style.element_create("RoundedFrame", "image", "frameBorder",
@@ -184,8 +239,24 @@ round_style.element_create("RoundedFrame", "image", "frameBorder",
 
 round_style.layout("RoundedFrame", [("RoundedFrame", {"sticky": "nsew"})])
 round_style.configure("TEntry", borderwidth=0,
-                      highlightbackground='#000015', highlightthickness=0, bg='#000015', fg='#000015')
+                      highlightbackground='#000015', highlightthickness=0, bg='#000015')
+round_style.configure("TButton", padding=0, relief='flat',
+                      borderwidth=0, background='#000015',)
 
+
+button_style = ttk.Style
+
+canvas_image = Image.open('frameBackground.png').resize(
+    (400, 600), Image.ANTIALIAS)
+canvas_image = ImageTk.PhotoImage(canvas_image)
+
+
+canvas.create_image(0, 0, image=canvas_image, anchor='nw')
+
+
+frame_dropdown = ttk.Frame(window, width=150, height=50,
+                           style='RoundedFrame', relief='flat')
+frame_dropdown.place(relx=0.5, rely=0.2, anchor='center')
 
 # DropDOWN
 dropdown_options = [
@@ -193,16 +264,46 @@ dropdown_options = [
     "Vaulted Only",
     "All"
 ]
-dropdown_text = StringVar(window)
+dropdown_text = StringVar(frame_dropdown)
 dropdown_text.set(dropdown_options[0])
-dropdown = OptionMenu(window, dropdown_text, *dropdown_options)
-dropdown.configure(
-    bg='#000015', highlightbackground='#000015')
-dropdown.place(x=150, y=100)
+dropdown = OptionMenu(frame_dropdown, dropdown_text, *dropdown_options)
+dropdown.configure(highlightthickness=0,
+                   bd=0,
+                   bg='#000015',
+                   fg='#FFFFFF',
+                   highlightcolor='#000015',
+                   activebackground='#000015',
+                   activeforeground='#FFFFFF',
+                   font="-family {Roboto Medium} -size 9 -weight bold "
+                   )
+dropdown.place(relx='0.5', rely='0.5', anchor='center')
 
-frame_dropdown = ttk.Frame(window, width=200, height=200,
-                           style='TEntry')
-frame_dropdown.place(x=150, y=100)
+
+relic_image = PhotoImage(file=str(random_icon()))
+relic_image = relic_image.subsample(2, 2)
+relic_image_label = Label(window, image=relic_image,
+                          anchor="center", bg='#000015')
+relic_image_label.place(relx=0.3, rely=0.3)
+
+search_image = Image.open(relative_to_assets('button_1.png'))
+search_image = search_image.resize((75, 50), Image.ANTIALIAS)
+search_image = ImageTk.PhotoImage(search_image)
+search_button = Button(window, text="Search", image=search_image)
+search_button.config(highlightthickness=0,
+                     bd=0,
+                     bg='#000015',
+                     fg='#FFFFFF',
+                     highlightcolor='#000015',
+                     activebackground='#000015',
+                     activeforeground='#FFFFFF',
+                     command=lambda: thread_relic(),
+                     font="-family {Roboto Medium} -size 9 -weight bold ")
+
+search_button.place(relx=0.5, rely=0.8, anchor='center')
+
+
+vaulted_var = IntVar()
+normal_drops_var = IntVar()
 
 
 def on_enter_exit(event):
