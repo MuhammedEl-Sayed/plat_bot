@@ -32,9 +32,12 @@ def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
 
+
 def get_relic():
-    final_relic = pb.get_best_relic(pb.get_items_id(
-        pb.parseXML('E:\GIT\plat_bot\items - Copy.xml'), vaulted_var.get()), vaulted_var.get())
+    vaulted_check = [False, False]
+    vaulted_check = check_dropdown(vaulted_check)
+    print(vaulted_check)
+    final_relic = pb.get_best_relic(pb.get_items_id(pb.parseXML('E:\GIT\plat_bot\items - Copy.xml'), vaulted_check[0], vaulted_check[1]), vaulted_check[0], vaulted_check[1])
     i = 0
     curr_top_ten = dict(sorted(pb.top_ten.items(), key=lambda item: item[1]))
     print(curr_top_ten)
@@ -44,6 +47,19 @@ def get_relic():
                          ": " + key + " - " + str(value), font=("Arial", 10))
         tempText.grid(row=i, column=0)
     result_text.config(text=str(final_relic))
+
+def check_dropdown(vaulted_check):
+
+    if dropdown_text.get() == dropdown_options[0]:
+        vaulted_check[0] = False
+        vaulted_check[1] = True
+    elif dropdown_text.get() == dropdown_options[1]:
+        vaulted_check[0] = True
+        vaulted_check[1] = False
+    elif dropdown_text.get() == dropdown_options[2]:
+        vaulted_check[0] = True
+        vaulted_check[1] = True
+    return vaulted_check
 
 
 

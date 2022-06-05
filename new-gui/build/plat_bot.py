@@ -29,7 +29,7 @@ all_relics = []
 searching = False
 
 
-def get_best_relic(relics, vaultedCheck):
+def get_best_relic(relics, vaultedCheck, unvaultedCheck):
     global searching, best_relic_text, top_ten
     best_relic = Relic("")
     top_ten = {}
@@ -46,6 +46,8 @@ def get_best_relic(relics, vaultedCheck):
     for relic in relics:
         if relic.vaulted == True and vaultedCheck == False:
             continue
+        elif relic.vaulted == False and unvaultedCheck == False:
+            continue
         for key, value in top_ten.items():
             if relic.best_drop[1] in top_ten:
 
@@ -60,12 +62,16 @@ def get_best_relic(relics, vaultedCheck):
     return best_relic.name
 
 
-def get_items_id(relics, vaultedCheck):
+def get_items_id(relics, vaultedCheck, unvaultedCheck):
     global all_relics, visitedDrops, searching
+    print("searching")
     for relic in relics:
+
+        relic.best_drop = [0, ""]
         if relic.vaulted == True and vaultedCheck == False:
             continue
-        relic.best_drop = [0, ""]
+        elif relic.vaulted == False and unvaultedCheck == False:
+            continue
         response = rq.get(
             'https://api.warframe.market/v1/items/' + relic.name + '/orders')
         rarity_counter = 0
