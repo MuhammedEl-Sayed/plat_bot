@@ -61,6 +61,15 @@ def check_dropdown(vaulted_check):
         vaulted_check[1] = True
     return vaulted_check
 
+def dropdown_callback(*args):
+    if dropdown_text.get() == dropdown_options[3]:
+        # Create a list box with the list of relics with a scrollbar
+        global relic_list_box
+        relic_list_box = Listbox(window, width=50, height=10)
+        relic_list_box.grid(row=0, column=1, rowspan=10, columnspan=2)
+
+
+
 
 
 def thread_relic():
@@ -276,10 +285,12 @@ frame_dropdown.place(relx=0.5, rely=0.2, anchor='center')
 dropdown_options = [
     "Unvaulted Only",
     "Vaulted Only",
-    "All"
+    "All",
+    "Specific Relic"
 ]
 dropdown_text = StringVar(frame_dropdown)
 dropdown_text.set(dropdown_options[0])
+dropdown_text.trace("w", dropdown_callback)
 dropdown = OptionMenu(frame_dropdown, dropdown_text, *dropdown_options)
 dropdown.configure(highlightthickness=0,
                    bd=0,
