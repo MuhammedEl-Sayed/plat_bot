@@ -36,17 +36,24 @@ def relative_to_assets(path: str) -> Path:
 def get_relic():
     vaulted_check = [False, False]
     vaulted_check = check_dropdown(vaulted_check)
-    print(vaulted_check)
-    final_relic = pb.get_best_relic(pb.get_items_id(pb.parseXML('E:\GIT\plat_bot\items - Copy.xml'), vaulted_check[0], vaulted_check[1]), vaulted_check[0], vaulted_check[1])
-    i = 0
-    curr_top_ten = dict(sorted(pb.top_ten.items(), key=lambda item: item[1]))
-    print(curr_top_ten)
-    for key, value in curr_top_ten.items():
-        i += 1
-        tempText = Label(window, text="Drop #" + str(i) +
+    if dropdown_text.get() == dropdown_options[3]:
+        relic_name = combo.get()
+        req_relic = pb.search_specific_relic(relic_name)
+        result_text.config(text=req_relic.average_price)
+        
+        print(req_relic.average_price)
+    else:
+        print(vaulted_check)
+        final_relic = pb.get_best_relic(pb.get_items_id(pb.parseXML('E:\GIT\plat_bot\items - Copy.xml'), vaulted_check[0], vaulted_check[1]), vaulted_check[0], vaulted_check[1])
+        i = 0
+        curr_top_ten = dict(sorted(pb.top_ten.items(), key=lambda item: item[1]))
+        print(curr_top_ten)
+        for key, value in curr_top_ten.items():
+            i += 1
+            tempText = Label(window, text="Drop #" + str(i) +
                          ": " + key + " - " + str(value), font=("Arial", 10))
-        tempText.grid(row=i, column=0)
-    result_text.config(text=str(final_relic))
+            tempText.grid(row=i, column=0)
+        result_text.config(text=str(final_relic))
 
 def check_dropdown(vaulted_check):
 
@@ -62,11 +69,11 @@ def check_dropdown(vaulted_check):
     return vaulted_check
 
 def dropdown_callback(*args):
+    global combobox
     if dropdown_text.get() == dropdown_options[3]:
         # Create a list box with the list of relics with a scrollbar
-        global relic_list_box
-        relic_list_box = Listbox(window, width=50, height=10)
-        relic_list_box.grid(row=0, column=1, rowspan=10, columnspan=2)
+        combo.lift()
+        
 
 
 
@@ -94,7 +101,7 @@ def test_random():
     temp_photo = ImageTk.PhotoImage(image)
 
     relic_image_label.config(image=temp_photo)
-    relic_image_label.image = temp_photo
+    relic_image_label.image = temp_photo 
     sleep(0.05)
     window.update()
 
@@ -153,8 +160,15 @@ window.bind('<Escape>', lambda e: window.destroy())
 window.bind('<Button-1>', lambda e: clickwindow(e))
 window.bind('<B1-Motion>', lambda e: dragwindow(e))
 def onRootIconify(event): window.withdraw()
+combo = ttk.Combobox(window, state='readonly')
+relic_names = pb.get_relic_names('E:\GIT\plat_bot\items - Copy.xml')
 
 
+
+        
+combo['values'] = relic_names
+combo.place(relx=0.5, rely=0.27, anchor=CENTER)
+combo.lower()
 root.bind("<Unmap>", onRootIconify)
 def onRootDeiconify(event): window.deiconify()
 
@@ -333,6 +347,7 @@ normal_drops_var = IntVar()
 
 result_text = Label(window, width=10, height=3,  bg='#000015', fg='#FFFFFF', font = "-family {Roboto Medium} -size 9 -weight bold ", highlightthickness=0, borderwidth=0)
 result_text.place(relx=0.6, rely=0.9, anchor='center')
+
 
 
 def on_enter_exit(event):

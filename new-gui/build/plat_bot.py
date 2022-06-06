@@ -184,6 +184,7 @@ def random_relic_icon():
 
 
 def parseXML(xmlfile):
+    global all_relics
     searching = True
     # parse the xml file, sorting each relic drop into a dictionary with the drops stored as the values
 
@@ -199,5 +200,81 @@ def parseXML(xmlfile):
             if grandchild.tag == 'Drop':
                 relic.drops.append(grandchild.attrib['name'])
         relics.append(relic)
+        all_relics.append(relic)
 
     return relics
+
+def get_relic_names(xmlfile):
+    relics = parseXML(xmlfile)
+    names = []
+    for relic in relics:
+        names.append(relic.name)
+    return names
+def search_specific_relic(relic_name):
+    global all_relics
+    # find relic in all_relics
+    req_relic = None
+    print(relic_name)
+    for relic in all_relics:
+        print(relic.name)
+        if relic.name == relic_name:
+            req_relic = relic
+            break
+    rarity_counter = 0
+    rarity_bias = .25
+    avg_plat = 0   
+    for drop in req_relic.drops:
+            if rarity_counter > 3 and rarity_counter < 5:
+                rarity_bias = .11
+            elif rarity_counter >= 5:
+                rarity_bias = .2
+            if drop == "forma_blueprint" or drop == "n/a":
+                rarity_counter += 1
+                continue
+            if drop in visitedDrops:
+                avg_plat += visitedDrops[drop]
+                rarity_counter += 1
+                req_relic.average_price += avg_plat
+                continue
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36', }
+            response = rq.get(
+                'https://api.warframe.market/v1/items/' + drop + '/orders', headers=headers)
+            while response.status_code == 503:
+                time.sleep(1)
+                response = rq.get(
+                    'https://api.warframe.market/v1/items/' + drop + '/orders', headers=headers)
+
+            response.raise_for_status()
+            if response.text == "":
+                rarity_counter += 1
+                continue
+            tojson = json.loads(response.text)
+
+            if tojson.get('payload') != None:
+                payload = tojson.get('payload')
+                if payload.get('orders') != None:
+                    orders = payload.get('orders')
+
+                    plat_values = []
+
+                    for order in orders:
+                        if order.get('order_type') == 'sell':
+
+                            plat_values.append(
+                                float(order.get('platinum')) * rarity_bias)
+
+                    # Get average of 10 lowest prices
+                    if len(plat_values) != 0:
+                        plat_values.sort()
+                        plat_values = plat_values[:10]
+                        plat = sum(plat_values) / len(plat_values)
+
+                        avg_plat += plat
+                        visitedDrops[drop] = avg_plat
+
+                        req_relic.average_price = avg_plat
+            rarity_counter += 1
+    return req_relic
+        
+    
