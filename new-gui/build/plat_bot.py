@@ -9,6 +9,7 @@ import tkinter as tk
 import random
 from PIL import Image, ImageTk
 from io import BytesIO
+from pathlib import Path
 
 
 class Relic:
@@ -22,6 +23,12 @@ class Relic:
         self.name = name
         self.drops = []
 
+OUTPUT_PATH = Path(__file__).parent
+ASSETS_PATH = OUTPUT_PATH / Path("./assets")
+
+
+def relative_to_assets(path: str) -> Path:
+    return ASSETS_PATH / Path(path)
 
 visitedDrops = {}
 
@@ -134,53 +141,6 @@ def get_items_id(relics, vaultedCheck, unvaultedCheck):
     all_relics = relics
     return relics
 
-
-def parseResponse(response, desiredID):
-    tree = ET.parse(response)
-    root = tree.getroot()
-
-
-def random_relic_icon():
-    global all_relics, searching
-    get_best_relic(get_items_id(parseXML('D:\GIT\plat_bot\items.xml')))
-    print("length of all_relics: ", len(all_relics))
-    random_relic_index = random.randint(0, len(all_relics) - 1)
-    response = rq.get("https://api.warframe.market/v1/items/" +
-                      all_relics[random_relic_index].name)
-    print(all_relics[random_relic_index].name)
-    while response.status_code == 503:
-        time.sleep(1)
-        print("sleeping")
-        response = rq.get(
-            'https://api.warframe.market/v1/items/' + all_relics[random_relic_index].name)
-
-    response.raise_for_status()
-    print("wow")
-    tojson = json.loads(response.text)
-    if tojson.get('payload') != None:
-        print("payload exists")
-        payload = tojson.get('payload')
-        if payload.get('item') != None:
-            print("item exists")
-            item = payload.get('item')
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36', }
-            if item.get('items_in_set') != None:
-                item_in_set = item.get('items_in_set')
-                if item_in_set != None:
-                    print(item_in_set[0]['icon'])
-                    imageurl = rq.get(
-                        'https://warframe.market/static/assets/' + item_in_set[0]['icon'], headers=headers)
-                    if imageurl == None:
-                        print("imageurl is none")
-                        return None
-                    img = Image.open(BytesIO(imageurl.content))
-                    print(img)
-                    # save in folder
-                    img.save(r"D:\\GIT\plat_bot\images\relics\{}.png".format(
-                        item.get('id'), 'r'))
-                    return "D:\\GIT\plat_bot\images\\relics\{}.png".format(
-                        item.get('id'))
 
 
 def parseXML(xmlfile):

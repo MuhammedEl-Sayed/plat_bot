@@ -1,0 +1,4338 @@
+('E:\\Git\\plat_bot\\new-gui\\build\\build\\gui\\PYZ-00.pyz',
+ [('win32com',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\__init__.py',
+   'PYMODULE'),
+  ('win32com.server.util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\server\\util.py',
+   'PYMODULE'),
+  ('win32com.server.dispatcher',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\server\\dispatcher.py',
+   'PYMODULE'),
+  ('win32traceutil',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32\\lib\\win32traceutil.py',
+   'PYMODULE'),
+  ('win32com.util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\util.py',
+   'PYMODULE'),
+  ('win32con',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32\\lib\\win32con.py',
+   'PYMODULE'),
+  ('win32com.server.exception',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\server\\exception.py',
+   'PYMODULE'),
+  ('winerror',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32\\lib\\winerror.py',
+   'PYMODULE'),
+  ('win32com.server.policy',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\server\\policy.py',
+   'PYMODULE'),
+  ('win32com.client',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.makepy',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\makepy.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\getopt.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\gettext.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\copy.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\struct.py',
+   'PYMODULE'),
+  ('pywin.dialogs.status',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\status.py',
+   'PYMODULE'),
+  ('pywin.mfc.thread',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\thread.py',
+   'PYMODULE'),
+  ('pywin.mfc.object',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\object.py',
+   'PYMODULE'),
+  ('pywin.mfc.dialog',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\dialog.py',
+   'PYMODULE'),
+  ('pywin.mfc.window',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\window.py',
+   'PYMODULE'),
+  ('pywin.mfc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\__init__.py',
+   'PYMODULE'),
+  ('pywin.dialogs',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\__init__.py',
+   'PYMODULE'),
+  ('pywin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\__init__.py',
+   'PYMODULE'),
+  ('importlib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._common',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\_common.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('ntpath',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\string.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\lzma.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\_compression.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\bz2.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\stat.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\typing.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('configparser',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\configparser.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\calendar.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\datetime.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\selectors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.message',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\optparse.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('csv',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\csv.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('win32com.client.gencache',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\gencache.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\pprint.py',
+   'PYMODULE'),
+  ('doctest',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\doctest.py',
+   'PYMODULE'),
+  ('unittest',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('asyncio',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\signal.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('ssl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\ssl.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('contextvars',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('queue',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\queue.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\bisect.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('runpy',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\runpy.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\zipimport.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\secrets.py',
+   'PYMODULE'),
+  ('hmac',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\hmac.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\gzip.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('getpass',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\netrc.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('http.client',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('decimal',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('numbers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\numbers.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('pdb',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\pdb.py',
+   'PYMODULE'),
+  ('pydoc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\tty.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_bootsubprocess',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\_bootsubprocess.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.archive_util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\archive_util.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('distutils.ccompiler',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('platform',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\codeop.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\opcode.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\cmd.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\inspect.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\token.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\ast.py',
+   'PYMODULE'),
+  ('difflib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\difflib.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\glob.py',
+   'PYMODULE'),
+  ('win32com.client.selecttlb',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\selecttlb.py',
+   'PYMODULE'),
+  ('pywin.dialogs.list',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\list.py',
+   'PYMODULE'),
+  ('commctrl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32\\lib\\commctrl.py',
+   'PYMODULE'),
+  ('win32com.client.genpy',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\genpy.py',
+   'PYMODULE'),
+  ('win32com.client.CLSIDToClass',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\CLSIDToClass.py',
+   'PYMODULE'),
+  ('win32com.client.dynamic',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\dynamic.py',
+   'PYMODULE'),
+  ('win32com.client.build',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\build.py',
+   'PYMODULE'),
+  ('pywintypes',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32\\lib\\pywintypes.py',
+   'PYMODULE'),
+  ('site',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\fake-modules\\site.py',
+   'PYMODULE'),
+  ('win32com.server',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\server\\__init__.py',
+   'PYMODULE'),
+  ('win32com.universal',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\universal.py',
+   'PYMODULE'),
+  ('win32com.client.util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\util.py',
+   'PYMODULE'),
+  ('pythoncom',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pythoncom.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\shutil.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._typing',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_typing.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('win32com.shell.shellcon',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32comext\\shell\\shellcon.py',
+   'PYMODULE'),
+  ('win32com.shell',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32comext\\shell\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\uuid.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('imp',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\imp.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('os',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\os.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\random.py',
+   'PYMODULE'),
+  ('statistics',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\statistics.py',
+   'PYMODULE'),
+  ('fractions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\fractions.py',
+   'PYMODULE'),
+  ('plat_bot', 'E:\\Git\\plat_bot\\new-gui\\build\\plat_bot.py', 'PYMODULE'),
+  ('json',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\base64.py',
+   'PYMODULE'),
+  ('requests',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\http\\cookies.py',
+   'PYMODULE'),
+  ('requests.api',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('idna',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.core',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('urllib3.packages.six',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\packages\\six.py',
+   'PYMODULE'),
+  ('urllib3.packages',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\packages\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\ipaddress.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.queue',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\util\\queue.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('urllib3.contrib._appengine_environ',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\contrib\\_appengine_environ.py',
+   'PYMODULE'),
+  ('urllib3.request',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\request.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('socks',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\socks.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests.models',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('certifi',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\resources.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('cryptography',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.bindings.openssl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\bindings\\openssl\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.bindings',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\bindings\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.bindings.openssl._conditional',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\bindings\\openssl\\_conditional.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.bindings.openssl.binding',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\bindings\\openssl\\binding.py',
+   'PYMODULE'),
+  ('cryptography.exceptions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\exceptions.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.x509',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\x509.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.aead',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\aead.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.ciphers.aead',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\aead.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.ciphers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.ciphers.base',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\base.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.ciphers.algorithms',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\algorithms.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.ciphers.modes',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\modes.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.serialization',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.serialization.pkcs7',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\pkcs7.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.rsa',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\rsa.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.utils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\utils.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives._asymmetric',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\_asymmetric.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.ec',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\ec.py',
+   'PYMODULE'),
+  ('cryptography.hazmat._oid',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\_oid.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.x448',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\x448.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.x25519',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\x25519.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.ed448',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\ed448.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.ed25519',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\ed25519.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.dsa',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\dsa.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.dh',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\dh.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.serialization.ssh',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\ssh.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.serialization.base',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\base.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.types',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\types.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives._serialization',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\_serialization.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.hashes',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\hashes.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.constant_time',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\constant_time.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives._cipheralgorithm',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\_cipheralgorithm.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.dh',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\dh.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.utils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\utils.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.ed448',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\ed448.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.hmac',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\hmac.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.rsa',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\rsa.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.padding',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\padding.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.hashes',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\hashes.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.ciphers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\ciphers.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.cmac',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\cmac.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.poly1305',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\poly1305.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.x25519',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\x25519.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.ed25519',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\ed25519.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.dsa',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\dsa.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.x448',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\x448.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.backend',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\backend.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.serialization.pkcs12',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\pkcs12.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.kdf.scrypt',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\kdf\\scrypt.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.kdf',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\primitives\\kdf\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.encode_asn1',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\encode_asn1.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.decode_asn1',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\decode_asn1.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.ec',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\ec.py',
+   'PYMODULE'),
+  ('cryptography.x509',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\x509\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.x509.oid',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\x509\\oid.py',
+   'PYMODULE'),
+  ('cryptography.x509.name',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\x509\\name.py',
+   'PYMODULE'),
+  ('cryptography.x509.general_name',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\x509\\general_name.py',
+   'PYMODULE'),
+  ('cryptography.x509.extensions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\x509\\extensions.py',
+   'PYMODULE'),
+  ('cryptography.x509.base',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\x509\\base.py',
+   'PYMODULE'),
+  ('cryptography.x509.certificate_transparency',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\x509\\certificate_transparency.py',
+   'PYMODULE'),
+  ('cryptography.utils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\utils.py',
+   'PYMODULE'),
+  ('cryptography.__about__',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cryptography\\__about__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('OpenSSL.crypto',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\OpenSSL\\crypto.py',
+   'PYMODULE'),
+  ('OpenSSL',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\OpenSSL\\__init__.py',
+   'PYMODULE'),
+  ('OpenSSL.version',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\OpenSSL\\version.py',
+   'PYMODULE'),
+  ('OpenSSL._util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\OpenSSL\\_util.py',
+   'PYMODULE'),
+  ('urllib3.packages.backports.makefile',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\packages\\backports\\makefile.py',
+   'PYMODULE'),
+  ('urllib3.packages.backports',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\packages\\backports\\__init__.py',
+   'PYMODULE'),
+  ('OpenSSL.SSL',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\OpenSSL\\SSL.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('chardet',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\__init__.py',
+   'PYMODULE'),
+  ('chardet.version',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\version.py',
+   'PYMODULE'),
+  ('chardet.enums',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\enums.py',
+   'PYMODULE'),
+  ('chardet.universaldetector',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\universaldetector.py',
+   'PYMODULE'),
+  ('chardet.sbcsgroupprober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\sbcsgroupprober.py',
+   'PYMODULE'),
+  ('chardet.sbcharsetprober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\sbcharsetprober.py',
+   'PYMODULE'),
+  ('chardet.charsetprober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\charsetprober.py',
+   'PYMODULE'),
+  ('chardet.langturkishmodel',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\langturkishmodel.py',
+   'PYMODULE'),
+  ('chardet.langthaimodel',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\langthaimodel.py',
+   'PYMODULE'),
+  ('chardet.langrussianmodel',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\langrussianmodel.py',
+   'PYMODULE'),
+  ('chardet.langhebrewmodel',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\langhebrewmodel.py',
+   'PYMODULE'),
+  ('chardet.langgreekmodel',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\langgreekmodel.py',
+   'PYMODULE'),
+  ('chardet.langbulgarianmodel',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\langbulgarianmodel.py',
+   'PYMODULE'),
+  ('chardet.hebrewprober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\hebrewprober.py',
+   'PYMODULE'),
+  ('chardet.mbcsgroupprober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\mbcsgroupprober.py',
+   'PYMODULE'),
+  ('chardet.euctwprober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\euctwprober.py',
+   'PYMODULE'),
+  ('chardet.mbcssm',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\mbcssm.py',
+   'PYMODULE'),
+  ('chardet.chardistribution',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\chardistribution.py',
+   'PYMODULE'),
+  ('chardet.jisfreq',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\jisfreq.py',
+   'PYMODULE'),
+  ('chardet.big5freq',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\big5freq.py',
+   'PYMODULE'),
+  ('chardet.gb2312freq',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\gb2312freq.py',
+   'PYMODULE'),
+  ('chardet.euckrfreq',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\euckrfreq.py',
+   'PYMODULE'),
+  ('chardet.euctwfreq',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\euctwfreq.py',
+   'PYMODULE'),
+  ('chardet.codingstatemachine',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\codingstatemachine.py',
+   'PYMODULE'),
+  ('chardet.mbcharsetprober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\mbcharsetprober.py',
+   'PYMODULE'),
+  ('chardet.big5prober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\big5prober.py',
+   'PYMODULE'),
+  ('chardet.cp949prober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\cp949prober.py',
+   'PYMODULE'),
+  ('chardet.euckrprober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\euckrprober.py',
+   'PYMODULE'),
+  ('chardet.gb2312prober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\gb2312prober.py',
+   'PYMODULE'),
+  ('chardet.eucjpprober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\eucjpprober.py',
+   'PYMODULE'),
+  ('chardet.jpcntx',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\jpcntx.py',
+   'PYMODULE'),
+  ('chardet.sjisprober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\sjisprober.py',
+   'PYMODULE'),
+  ('chardet.utf8prober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\utf8prober.py',
+   'PYMODULE'),
+  ('chardet.latin1prober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\latin1prober.py',
+   'PYMODULE'),
+  ('chardet.escprober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\escprober.py',
+   'PYMODULE'),
+  ('chardet.escsm',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\escsm.py',
+   'PYMODULE'),
+  ('chardet.charsetgroupprober',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\chardet\\charsetgroupprober.py',
+   'PYMODULE'),
+  ('urllib3',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('pygments',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\__init__.py',
+   'PYMODULE'),
+  ('pygments.styles.solarized',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\solarized.py',
+   'PYMODULE'),
+  ('pygments.token',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\token.py',
+   'PYMODULE'),
+  ('pygments.style',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\style.py',
+   'PYMODULE'),
+  ('pygments.styles.sas',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\sas.py',
+   'PYMODULE'),
+  ('pygments.styles.fruity',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\fruity.py',
+   'PYMODULE'),
+  ('pygments.styles.paraiso_dark',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\paraiso_dark.py',
+   'PYMODULE'),
+  ('pygments.styles.murphy',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\murphy.py',
+   'PYMODULE'),
+  ('pygments.styles.friendly_grayscale',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\friendly_grayscale.py',
+   'PYMODULE'),
+  ('pygments.styles.bw',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\bw.py',
+   'PYMODULE'),
+  ('pygments.styles.abap',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\abap.py',
+   'PYMODULE'),
+  ('pygments.styles.rrt',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\rrt.py',
+   'PYMODULE'),
+  ('pygments.styles.zenburn',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\zenburn.py',
+   'PYMODULE'),
+  ('pygments.styles.igor',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\igor.py',
+   'PYMODULE'),
+  ('pygments.styles.lilypond',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\lilypond.py',
+   'PYMODULE'),
+  ('pygments.styles.stata_dark',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\stata_dark.py',
+   'PYMODULE'),
+  ('pygments.styles',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\__init__.py',
+   'PYMODULE'),
+  ('pygments.util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\util.py',
+   'PYMODULE'),
+  ('pygments.plugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\plugin.py',
+   'PYMODULE'),
+  ('pygments.styles.friendly',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\friendly.py',
+   'PYMODULE'),
+  ('pygments.styles.inkpot',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\inkpot.py',
+   'PYMODULE'),
+  ('pygments.styles.colorful',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\colorful.py',
+   'PYMODULE'),
+  ('pygments.styles.pastie',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\pastie.py',
+   'PYMODULE'),
+  ('pygments.styles.native',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\native.py',
+   'PYMODULE'),
+  ('pygments.styles.stata_light',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\stata_light.py',
+   'PYMODULE'),
+  ('pygments.styles.trac',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\trac.py',
+   'PYMODULE'),
+  ('pygments.styles.material',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\material.py',
+   'PYMODULE'),
+  ('pygments.styles.tango',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\tango.py',
+   'PYMODULE'),
+  ('pygments.styles.lovelace',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\lovelace.py',
+   'PYMODULE'),
+  ('pygments.styles.perldoc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\perldoc.py',
+   'PYMODULE'),
+  ('pygments.styles.xcode',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\xcode.py',
+   'PYMODULE'),
+  ('pygments.styles.borland',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\borland.py',
+   'PYMODULE'),
+  ('pygments.styles.vs',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\vs.py',
+   'PYMODULE'),
+  ('pygments.styles.rainbow_dash',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\rainbow_dash.py',
+   'PYMODULE'),
+  ('pygments.styles.autumn',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\autumn.py',
+   'PYMODULE'),
+  ('pygments.styles.manni',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\manni.py',
+   'PYMODULE'),
+  ('pygments.styles.paraiso_light',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\paraiso_light.py',
+   'PYMODULE'),
+  ('pygments.styles.vim',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\vim.py',
+   'PYMODULE'),
+  ('pygments.styles.default',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\default.py',
+   'PYMODULE'),
+  ('pygments.styles.dracula',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\dracula.py',
+   'PYMODULE'),
+  ('pygments.styles.algol',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\algol.py',
+   'PYMODULE'),
+  ('pygments.styles.onedark',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\onedark.py',
+   'PYMODULE'),
+  ('pygments.styles.monokai',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\monokai.py',
+   'PYMODULE'),
+  ('pygments.styles.gruvbox',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\gruvbox.py',
+   'PYMODULE'),
+  ('pygments.styles.emacs',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\emacs.py',
+   'PYMODULE'),
+  ('pygments.styles.arduino',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\arduino.py',
+   'PYMODULE'),
+  ('pygments.styles.algol_nu',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\styles\\algol_nu.py',
+   'PYMODULE'),
+  ('pygments.lexers.ul4',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\ul4.py',
+   'PYMODULE'),
+  ('pygments.lexer',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexer.py',
+   'PYMODULE'),
+  ('pygments.regexopt',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\regexopt.py',
+   'PYMODULE'),
+  ('pygments.filters',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\filters\\__init__.py',
+   'PYMODULE'),
+  ('pygments.filter',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\filter.py',
+   'PYMODULE'),
+  ('pygments.lexers.graph',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\graph.py',
+   'PYMODULE'),
+  ('pygments.lexers._css_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_css_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.praat',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\praat.py',
+   'PYMODULE'),
+  ('pygments.lexers.scripting',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\scripting.py',
+   'PYMODULE'),
+  ('pygments.lexers.eiffel',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\eiffel.py',
+   'PYMODULE'),
+  ('pygments.lexers._postgres_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_postgres_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.haskell',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\haskell.py',
+   'PYMODULE'),
+  ('pygments.unistring',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\unistring.py',
+   'PYMODULE'),
+  ('pygments.lexers.robotframework',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\robotframework.py',
+   'PYMODULE'),
+  ('pygments.lexers.arrow',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\arrow.py',
+   'PYMODULE'),
+  ('pygments.lexers.spice',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\spice.py',
+   'PYMODULE'),
+  ('pygments.lexers.trafficscript',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\trafficscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.hexdump',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\hexdump.py',
+   'PYMODULE'),
+  ('pygments.lexers.tnt',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\tnt.py',
+   'PYMODULE'),
+  ('pygments.lexers.qvt',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\qvt.py',
+   'PYMODULE'),
+  ('pygments.lexers.roboconf',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\roboconf.py',
+   'PYMODULE'),
+  ('pygments.lexers.igor',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\igor.py',
+   'PYMODULE'),
+  ('pygments.lexers._stan_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_stan_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.ooc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\ooc.py',
+   'PYMODULE'),
+  ('pygments.lexers.asm',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\asm.py',
+   'PYMODULE'),
+  ('pygments.lexers.sgf',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\sgf.py',
+   'PYMODULE'),
+  ('pygments.lexers.mcfunction',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\mcfunction.py',
+   'PYMODULE'),
+  ('pygments.lexers._usd_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_usd_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.ampl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\ampl.py',
+   'PYMODULE'),
+  ('pygments.lexers.nimrod',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\nimrod.py',
+   'PYMODULE'),
+  ('pygments.lexers.verification',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\verification.py',
+   'PYMODULE'),
+  ('pygments.lexers._php_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_php_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.unicon',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\unicon.py',
+   'PYMODULE'),
+  ('pygments.lexers.bare',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\bare.py',
+   'PYMODULE'),
+  ('pygments.lexers.meson',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\meson.py',
+   'PYMODULE'),
+  ('pygments.lexers.c_cpp',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\c_cpp.py',
+   'PYMODULE'),
+  ('pygments.lexers.sophia',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\sophia.py',
+   'PYMODULE'),
+  ('pygments.lexers._mapping',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_mapping.py',
+   'PYMODULE'),
+  ('pygments.lexers.felix',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\felix.py',
+   'PYMODULE'),
+  ('pygments.lexers._lua_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_lua_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.parasail',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\parasail.py',
+   'PYMODULE'),
+  ('pygments.lexers.php',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\php.py',
+   'PYMODULE'),
+  ('pygments.lexers.html',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\html.py',
+   'PYMODULE'),
+  ('pygments.lexers.oberon',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\oberon.py',
+   'PYMODULE'),
+  ('pygments.lexers.email',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\email.py',
+   'PYMODULE'),
+  ('pygments.lexers.textfmts',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\textfmts.py',
+   'PYMODULE'),
+  ('pygments.lexers.special',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\special.py',
+   'PYMODULE'),
+  ('pygments.lexers._cocoa_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_cocoa_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.webidl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\webidl.py',
+   'PYMODULE'),
+  ('pygments.lexers.javascript',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\javascript.py',
+   'PYMODULE'),
+  ('pygments.lexers._asy_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_asy_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\__init__.py',
+   'PYMODULE'),
+  ('pygments.modeline',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\modeline.py',
+   'PYMODULE'),
+  ('pygments.lexers.crystal',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\crystal.py',
+   'PYMODULE'),
+  ('pygments.lexers.q',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\q.py',
+   'PYMODULE'),
+  ('pygments.lexers.pawn',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\pawn.py',
+   'PYMODULE'),
+  ('pygments.lexers.dsls',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\dsls.py',
+   'PYMODULE'),
+  ('pygments.lexers.resource',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\resource.py',
+   'PYMODULE'),
+  ('pygments.lexers.dylan',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\dylan.py',
+   'PYMODULE'),
+  ('pygments.lexers.cplint',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\cplint.py',
+   'PYMODULE'),
+  ('pygments.lexers.tcl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\tcl.py',
+   'PYMODULE'),
+  ('pygments.lexers._scheme_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_scheme_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.functional',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\functional.py',
+   'PYMODULE'),
+  ('pygments.lexers.data',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\data.py',
+   'PYMODULE'),
+  ('pygments.lexers.csound',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\csound.py',
+   'PYMODULE'),
+  ('pygments.lexers.agile',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\agile.py',
+   'PYMODULE'),
+  ('pygments.lexers.asc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\asc.py',
+   'PYMODULE'),
+  ('pygments.lexers.apl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\apl.py',
+   'PYMODULE'),
+  ('pygments.lexers.text',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\text.py',
+   'PYMODULE'),
+  ('pygments.lexers.automation',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\automation.py',
+   'PYMODULE'),
+  ('pygments.lexers.esoteric',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\esoteric.py',
+   'PYMODULE'),
+  ('pygments.lexers._openedge_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_openedge_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.julia',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\julia.py',
+   'PYMODULE'),
+  ('pygments.lexers.graphics',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\graphics.py',
+   'PYMODULE'),
+  ('pygments.lexers.rust',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\rust.py',
+   'PYMODULE'),
+  ('pygments.lexers.python',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\python.py',
+   'PYMODULE'),
+  ('pygments.lexers.supercollider',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\supercollider.py',
+   'PYMODULE'),
+  ('pygments.lexers.jvm',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\jvm.py',
+   'PYMODULE'),
+  ('pygments.lexers.hdl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\hdl.py',
+   'PYMODULE'),
+  ('pygments.lexers._ada_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_ada_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.theorem',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\theorem.py',
+   'PYMODULE'),
+  ('pygments.lexers.thingsdb',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\thingsdb.py',
+   'PYMODULE'),
+  ('pygments.lexers.maxima',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\maxima.py',
+   'PYMODULE'),
+  ('pygments.lexers.rnc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\rnc.py',
+   'PYMODULE'),
+  ('pygments.lexers.r',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\r.py',
+   'PYMODULE'),
+  ('pygments.lexers.graphviz',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\graphviz.py',
+   'PYMODULE'),
+  ('pygments.lexers.css',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\css.py',
+   'PYMODULE'),
+  ('pygments.lexers.web',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\web.py',
+   'PYMODULE'),
+  ('pygments.lexers.smalltalk',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\smalltalk.py',
+   'PYMODULE'),
+  ('pygments.lexers.inferno',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\inferno.py',
+   'PYMODULE'),
+  ('pygments.lexers.zig',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\zig.py',
+   'PYMODULE'),
+  ('pygments.lexers.whiley',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\whiley.py',
+   'PYMODULE'),
+  ('pygments.lexers.sql',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\sql.py',
+   'PYMODULE'),
+  ('pygments.lexers.matlab',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\matlab.py',
+   'PYMODULE'),
+  ('pygments.lexers.archetype',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\archetype.py',
+   'PYMODULE'),
+  ('pygments.lexers.monte',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\monte.py',
+   'PYMODULE'),
+  ('pygments.lexers.x10',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\x10.py',
+   'PYMODULE'),
+  ('pygments.lexers.mosel',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\mosel.py',
+   'PYMODULE'),
+  ('pygments.lexers.ncl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\ncl.py',
+   'PYMODULE'),
+  ('pygments.lexers.modula2',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\modula2.py',
+   'PYMODULE'),
+  ('pygments.lexers._mysql_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_mysql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.promql',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\promql.py',
+   'PYMODULE'),
+  ('pygments.lexers.macaulay2',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\macaulay2.py',
+   'PYMODULE'),
+  ('pygments.lexers.c_like',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\c_like.py',
+   'PYMODULE'),
+  ('pygments.lexers.fortran',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\fortran.py',
+   'PYMODULE'),
+  ('pygments.lexers.foxpro',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\foxpro.py',
+   'PYMODULE'),
+  ('pygments.lexers._vim_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_vim_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.webassembly',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\webassembly.py',
+   'PYMODULE'),
+  ('pygments.lexers.berry',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\berry.py',
+   'PYMODULE'),
+  ('pygments.lexers.ride',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\ride.py',
+   'PYMODULE'),
+  ('pygments.lexers.nit',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\nit.py',
+   'PYMODULE'),
+  ('pygments.lexers.stata',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\stata.py',
+   'PYMODULE'),
+  ('pygments.lexers.snobol',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\snobol.py',
+   'PYMODULE'),
+  ('pygments.lexers.int_fiction',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\int_fiction.py',
+   'PYMODULE'),
+  ('pygments.lexers.console',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\console.py',
+   'PYMODULE'),
+  ('pygments.lexers.ml',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\ml.py',
+   'PYMODULE'),
+  ('pygments.lexers.lilypond',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\lilypond.py',
+   'PYMODULE'),
+  ('pygments.lexers.d',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\d.py',
+   'PYMODULE'),
+  ('pygments.lexers.dalvik',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\dalvik.py',
+   'PYMODULE'),
+  ('pygments.lexers.installers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\installers.py',
+   'PYMODULE'),
+  ('pygments.lexers.usd',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\usd.py',
+   'PYMODULE'),
+  ('pygments.lexers.floscript',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\floscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.bibtex',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\bibtex.py',
+   'PYMODULE'),
+  ('pygments.lexers.solidity',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\solidity.py',
+   'PYMODULE'),
+  ('pygments.lexers.smv',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\smv.py',
+   'PYMODULE'),
+  ('pygments.lexers.compiled',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\compiled.py',
+   'PYMODULE'),
+  ('pygments.lexers.kuin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\kuin.py',
+   'PYMODULE'),
+  ('pygments.lexers.jslt',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\jslt.py',
+   'PYMODULE'),
+  ('pygments.lexers.templates',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\templates.py',
+   'PYMODULE'),
+  ('pygments.lexers.prolog',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\prolog.py',
+   'PYMODULE'),
+  ('pygments.lexers.pony',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\pony.py',
+   'PYMODULE'),
+  ('pygments.lexers.math',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\math.py',
+   'PYMODULE'),
+  ('pygments.lexers._sourcemod_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_sourcemod_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._scilab_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_scilab_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.urbi',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\urbi.py',
+   'PYMODULE'),
+  ('pygments.lexers._csound_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_csound_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.configs',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\configs.py',
+   'PYMODULE'),
+  ('pygments.lexers.chapel',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\chapel.py',
+   'PYMODULE'),
+  ('pygments.lexers.shell',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\shell.py',
+   'PYMODULE'),
+  ('pygments.lexers.apdlexer',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\apdlexer.py',
+   'PYMODULE'),
+  ('pygments.lexers.devicetree',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\devicetree.py',
+   'PYMODULE'),
+  ('pygments.lexers.savi',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\savi.py',
+   'PYMODULE'),
+  ('pygments.lexers.idl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\idl.py',
+   'PYMODULE'),
+  ('pygments.lexers.forth',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\forth.py',
+   'PYMODULE'),
+  ('pygments.lexers._qlik_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_qlik_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.algebra',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\algebra.py',
+   'PYMODULE'),
+  ('pygments.lexers.ambient',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\ambient.py',
+   'PYMODULE'),
+  ('pygments.lexers.testing',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\testing.py',
+   'PYMODULE'),
+  ('pygments.lexers.dotnet',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\dotnet.py',
+   'PYMODULE'),
+  ('pygments.lexers.parsers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\parsers.py',
+   'PYMODULE'),
+  ('pygments.lexers.lisp',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\lisp.py',
+   'PYMODULE'),
+  ('pygments.lexers.nix',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\nix.py',
+   'PYMODULE'),
+  ('pygments.lexers.teraterm',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\teraterm.py',
+   'PYMODULE'),
+  ('pygments.lexers.teal',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\teal.py',
+   'PYMODULE'),
+  ('pygments.lexers.slash',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\slash.py',
+   'PYMODULE'),
+  ('pygments.lexers.j',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\j.py',
+   'PYMODULE'),
+  ('pygments.lexers.gcodelexer',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\gcodelexer.py',
+   'PYMODULE'),
+  ('pygments.lexers.sieve',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\sieve.py',
+   'PYMODULE'),
+  ('pygments.lexers.mime',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\mime.py',
+   'PYMODULE'),
+  ('pygments.lexers.smithy',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\smithy.py',
+   'PYMODULE'),
+  ('pygments.lexers.rebol',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\rebol.py',
+   'PYMODULE'),
+  ('pygments.lexers._julia_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_julia_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.perl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\perl.py',
+   'PYMODULE'),
+  ('pygments.lexers.bdd',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\bdd.py',
+   'PYMODULE'),
+  ('pygments.lexers.gsql',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\gsql.py',
+   'PYMODULE'),
+  ('pygments.lexers.capnproto',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\capnproto.py',
+   'PYMODULE'),
+  ('pygments.lexers.webmisc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\webmisc.py',
+   'PYMODULE'),
+  ('pygments.lexers.futhark',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\futhark.py',
+   'PYMODULE'),
+  ('pygments.lexers.rita',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\rita.py',
+   'PYMODULE'),
+  ('pygments.lexers.ecl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\ecl.py',
+   'PYMODULE'),
+  ('pygments.lexers.procfile',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\procfile.py',
+   'PYMODULE'),
+  ('pygments.lexers.varnish',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\varnish.py',
+   'PYMODULE'),
+  ('pygments.lexers._tsql_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_tsql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.qlik',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\qlik.py',
+   'PYMODULE'),
+  ('pygments.lexers.go',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\go.py',
+   'PYMODULE'),
+  ('pygments.lexers.objective',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\objective.py',
+   'PYMODULE'),
+  ('pygments.lexers._lilypond_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_lilypond_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.freefem',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\freefem.py',
+   'PYMODULE'),
+  ('pygments.lexers.srcinfo',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\srcinfo.py',
+   'PYMODULE'),
+  ('pygments.lexers.gdscript',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\gdscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.pascal',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\pascal.py',
+   'PYMODULE'),
+  ('pygments.scanner',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\scanner.py',
+   'PYMODULE'),
+  ('pygments.lexers.erlang',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\erlang.py',
+   'PYMODULE'),
+  ('pygments.lexers.elpi',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\elpi.py',
+   'PYMODULE'),
+  ('pygments.lexers.ada',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\ada.py',
+   'PYMODULE'),
+  ('pygments.lexers._mql_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_mql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.clean',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\clean.py',
+   'PYMODULE'),
+  ('pygments.lexers.rdf',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\rdf.py',
+   'PYMODULE'),
+  ('pygments.lexers.modeling',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\modeling.py',
+   'PYMODULE'),
+  ('pygments.lexers.amdgpu',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\amdgpu.py',
+   'PYMODULE'),
+  ('pygments.lexers.scdoc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\scdoc.py',
+   'PYMODULE'),
+  ('pygments.lexers.sas',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\sas.py',
+   'PYMODULE'),
+  ('pygments.lexers.fantom',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\fantom.py',
+   'PYMODULE'),
+  ('pygments.lexers.diff',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\diff.py',
+   'PYMODULE'),
+  ('pygments.lexers.textedit',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\textedit.py',
+   'PYMODULE'),
+  ('pygments.lexers.factor',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\factor.py',
+   'PYMODULE'),
+  ('pygments.lexers.actionscript',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\actionscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.iolang',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\iolang.py',
+   'PYMODULE'),
+  ('pygments.lexers.other',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\other.py',
+   'PYMODULE'),
+  ('pygments.lexers.pointless',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\pointless.py',
+   'PYMODULE'),
+  ('pygments.lexers._lasso_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_lasso_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.make',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\make.py',
+   'PYMODULE'),
+  ('pygments.lexers.grammar_notation',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\grammar_notation.py',
+   'PYMODULE'),
+  ('pygments.lexers.ruby',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\ruby.py',
+   'PYMODULE'),
+  ('pygments.lexers.cddl',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\cddl.py',
+   'PYMODULE'),
+  ('pygments.lexers.yang',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\yang.py',
+   'PYMODULE'),
+  ('pygments.lexers._stata_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_stata_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.markup',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\markup.py',
+   'PYMODULE'),
+  ('pygments.lexers.elm',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\elm.py',
+   'PYMODULE'),
+  ('pygments.lexers.typoscript',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\typoscript.py',
+   'PYMODULE'),
+  ('pygments.lexers._vbscript_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_vbscript_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.haxe',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\haxe.py',
+   'PYMODULE'),
+  ('pygments.lexers.xorg',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\xorg.py',
+   'PYMODULE'),
+  ('pygments.lexers.tal',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\tal.py',
+   'PYMODULE'),
+  ('pygments.lexers.boa',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\boa.py',
+   'PYMODULE'),
+  ('pygments.lexers.ezhil',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\ezhil.py',
+   'PYMODULE'),
+  ('pygments.lexers.basic',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\basic.py',
+   'PYMODULE'),
+  ('pygments.lexers.business',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\business.py',
+   'PYMODULE'),
+  ('pygments.lexers._cl_builtins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\lexers\\_cl_builtins.py',
+   'PYMODULE'),
+  ('pygments.formatters.terminal',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatters\\terminal.py',
+   'PYMODULE'),
+  ('pygments.console',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\console.py',
+   'PYMODULE'),
+  ('pygments.formatter',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatter.py',
+   'PYMODULE'),
+  ('pygments.formatters.irc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatters\\irc.py',
+   'PYMODULE'),
+  ('pygments.formatters.groff',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatters\\groff.py',
+   'PYMODULE'),
+  ('pygments.formatters.bbcode',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatters\\bbcode.py',
+   'PYMODULE'),
+  ('pygments.formatters.html',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatters\\html.py',
+   'PYMODULE'),
+  ('pygments.formatters',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatters\\__init__.py',
+   'PYMODULE'),
+  ('pygments.formatters._mapping',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatters\\_mapping.py',
+   'PYMODULE'),
+  ('pygments.formatters.img',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatters\\img.py',
+   'PYMODULE'),
+  ('PIL.ImageFont',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageFont.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageDraw.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw2',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageDraw2.py',
+   'PYMODULE'),
+  ('PIL.ImagePath',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImagePath.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('colorsys',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\colorsys.py',
+   'PYMODULE'),
+  ('pygments.formatters.svg',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatters\\svg.py',
+   'PYMODULE'),
+  ('pygments.formatters.terminal256',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatters\\terminal256.py',
+   'PYMODULE'),
+  ('pygments.formatters.latex',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatters\\latex.py',
+   'PYMODULE'),
+  ('pygments.formatters.other',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatters\\other.py',
+   'PYMODULE'),
+  ('pygments.formatters.pangomarkup',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatters\\pangomarkup.py',
+   'PYMODULE'),
+  ('pygments.formatters.rtf',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygments\\formatters\\rtf.py',
+   'PYMODULE'),
+  ('tkinter.ttk',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\ttk.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsStubImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.PyAccess',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PyAccess.py',
+   'PYMODULE'),
+  ('numpy',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy._version',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\_version.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.distutils.cpuinfo',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\cpuinfo.py',
+   'PYMODULE'),
+  ('numpy.distutils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.fcompiler',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\fcompiler\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.config_compiler',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\config_compiler.py',
+   'PYMODULE'),
+  ('numpy.distutils.command',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.egg_info',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\egg_info.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.develop',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\develop.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_clib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\install_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.bdist_rpm',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('distutils.command.bdist_rpm',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('distutils.command',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\install.py',
+   'PYMODULE'),
+  ('distutils.command.install',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\command\\install.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_headers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\install_headers.py',
+   'PYMODULE'),
+  ('distutils.command.install_headers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\command\\install_headers.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_data',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\install_data.py',
+   'PYMODULE'),
+  ('distutils.command.install_data',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\command\\install_data.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.sdist',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('distutils.command.sdist',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_scripts',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('distutils.command.build_scripts',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_clib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\build_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.ccompiler_opt',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\ccompiler_opt.py',
+   'PYMODULE'),
+  ('distutils.command.build_clib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\command\\build_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_ext',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('numpy.distutils.system_info',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\system_info.py',
+   'PYMODULE'),
+  ('distutils.command.build_ext',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('distutils._msvccompiler',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('distutils.extension',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\extension.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_py',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\build_py.py',
+   'PYMODULE'),
+  ('distutils.command.build_py',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\command\\build_py.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\build.py',
+   'PYMODULE'),
+  ('distutils.command.build',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\command\\build.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.config',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\config.py',
+   'PYMODULE'),
+  ('distutils.msvc9compiler',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\msvc9compiler.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.autodist',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\autodist.py',
+   'PYMODULE'),
+  ('numpy.distutils.mingw32ccompiler',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\mingw32ccompiler.py',
+   'PYMODULE'),
+  ('distutils.msvccompiler',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\msvccompiler.py',
+   'PYMODULE'),
+  ('distutils.unixccompiler',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\unixccompiler.py',
+   'PYMODULE'),
+  ('distutils.cygwinccompiler',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\cygwinccompiler.py',
+   'PYMODULE'),
+  ('distutils.version',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\version.py',
+   'PYMODULE'),
+  ('distutils.command.config',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\command\\config.py',
+   'PYMODULE'),
+  ('distutils.core',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\core.py',
+   'PYMODULE'),
+  ('distutils.config',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\config.py',
+   'PYMODULE'),
+  ('cgi',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\cgi.py',
+   'PYMODULE'),
+  ('distutils.cmd',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\cmd.py',
+   'PYMODULE'),
+  ('distutils.dist',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\dist.py',
+   'PYMODULE'),
+  ('distutils.versionpredicate',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('numpy.distutils.core',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\core.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_src',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\command\\build_src.py',
+   'PYMODULE'),
+  ('numpy.distutils.conv_template',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\conv_template.py',
+   'PYMODULE'),
+  ('numpy.distutils.from_template',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\from_template.py',
+   'PYMODULE'),
+  ('numpy.distutils.numpy_distribution',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\numpy_distribution.py',
+   'PYMODULE'),
+  ('numpy.distutils.extension',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\extension.py',
+   'PYMODULE'),
+  ('numpy.distutils.fcompiler.environment',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\fcompiler\\environment.py',
+   'PYMODULE'),
+  ('numpy.distutils.exec_command',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\exec_command.py',
+   'PYMODULE'),
+  ('numpy.distutils.misc_util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\misc_util.py',
+   'PYMODULE'),
+  ('curses',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\curses\\__init__.py',
+   'PYMODULE'),
+  ('curses.has_key',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\curses\\has_key.py',
+   'PYMODULE'),
+  ('numpy.distutils.__config__',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\__config__.py',
+   'PYMODULE'),
+  ('numpy.distutils.npy_pkg_config',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\npy_pkg_config.py',
+   'PYMODULE'),
+  ('numpy.distutils.unixccompiler',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\unixccompiler.py',
+   'PYMODULE'),
+  ('numpy.distutils.ccompiler',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('numpy.distutils._shell_utils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\_shell_utils.py',
+   'PYMODULE'),
+  ('pipes',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\pipes.py',
+   'PYMODULE'),
+  ('numpy.distutils.lib2def',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\lib2def.py',
+   'PYMODULE'),
+  ('numpy.distutils.log',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\distutils\\log.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private.extbuild',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core._machar',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_machar.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs_scalars',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy.array_api',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\__init__.py',
+   'PYMODULE'),
+  ('numpy.array_api._utility_functions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\_utility_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._array_object',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\_array_object.py',
+   'PYMODULE'),
+  ('numpy.typing',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.typing._add_docstring',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\typing\\_add_docstring.py',
+   'PYMODULE'),
+  ('numpy.typing._generic_alias',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\typing\\_generic_alias.py',
+   'PYMODULE'),
+  ('numpy.typing._array_like',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\typing\\_array_like.py',
+   'PYMODULE'),
+  ('numpy.typing._dtype_like',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\typing\\_dtype_like.py',
+   'PYMODULE'),
+  ('numpy.typing._shape',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\typing\\_shape.py',
+   'PYMODULE'),
+  ('numpy.typing._scalars',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\typing\\_scalars.py',
+   'PYMODULE'),
+  ('numpy.typing._char_codes',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\typing\\_char_codes.py',
+   'PYMODULE'),
+  ('numpy.typing._nbit',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\typing\\_nbit.py',
+   'PYMODULE'),
+  ('numpy.typing._nested_sequence',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\typing\\_nested_sequence.py',
+   'PYMODULE'),
+  ('numpy.array_api._typing',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\_typing.py',
+   'PYMODULE'),
+  ('numpy.array_api._statistical_functions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\_statistical_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._sorting_functions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\_sorting_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._set_functions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\_set_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._searching_functions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\_searching_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._manipulation_functions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\_manipulation_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api.linalg',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\linalg.py',
+   'PYMODULE'),
+  ('numpy.array_api._elementwise_functions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\_elementwise_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._dtypes',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\_dtypes.py',
+   'PYMODULE'),
+  ('numpy.array_api._data_type_functions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\_data_type_functions.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\dataclasses.py',
+   'PYMODULE'),
+  ('numpy.array_api._creation_functions',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\_creation_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._constants',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\array_api\\_constants.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('cffi',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cffi\\__init__.py',
+   'PYMODULE'),
+  ('cffi.error',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cffi\\error.py',
+   'PYMODULE'),
+  ('cffi.api',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cffi\\api.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('cffi.recompiler',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cffi\\recompiler.py',
+   'PYMODULE'),
+  ('cffi.cffi_opcode',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cffi\\cffi_opcode.py',
+   'PYMODULE'),
+  ('cffi.verifier',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cffi\\verifier.py',
+   'PYMODULE'),
+  ('cffi.lock',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cffi\\lock.py',
+   'PYMODULE'),
+  ('cffi.pkgconfig',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cffi\\pkgconfig.py',
+   'PYMODULE'),
+  ('cffi.vengine_cpy',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cffi\\vengine_cpy.py',
+   'PYMODULE'),
+  ('cffi.vengine_gen',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cffi\\vengine_gen.py',
+   'PYMODULE'),
+  ('cffi.ffiplatform',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cffi\\ffiplatform.py',
+   'PYMODULE'),
+  ('setuptools',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.__about__',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.ordered_set',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._typing',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_typing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._compat',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('setuptools.namespaces',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\namespaces.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools._imp',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_imp.py',
+   'PYMODULE'),
+  ('setuptools.py34compat',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\py34compat.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.installer',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\installer.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.py36compat',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\command\\py36compat.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\config.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.command.install_scripts',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('setuptools.command.easy_install',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\command\\easy_install.py',
+   'PYMODULE'),
+  ('setuptools.package_index',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\package_index.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools.sandbox',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\sandbox.py',
+   'PYMODULE'),
+  ('distutils.command.install_scripts',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('distutils.command.bdist',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools.extern',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\extern\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('setuptools.ssl_support',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\ssl_support.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools._deprecation_warning',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_deprecation_warning.py',
+   'PYMODULE'),
+  ('_distutils_hack.override',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\_distutils_hack\\override.py',
+   'PYMODULE'),
+  ('_distutils_hack',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\_distutils_hack\\__init__.py',
+   'PYMODULE'),
+  ('cffi.cparser',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cffi\\cparser.py',
+   'PYMODULE'),
+  ('pycparser.lextab',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pycparser\\lextab.py',
+   'PYMODULE'),
+  ('pycparser.yacctab',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pycparser\\yacctab.py',
+   'PYMODULE'),
+  ('pycparser',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pycparser\\__init__.py',
+   'PYMODULE'),
+  ('pycparser.c_parser',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pycparser\\c_parser.py',
+   'PYMODULE'),
+  ('pycparser.ast_transforms',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pycparser\\ast_transforms.py',
+   'PYMODULE'),
+  ('pycparser.plyparser',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pycparser\\plyparser.py',
+   'PYMODULE'),
+  ('pycparser.c_lexer',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pycparser\\c_lexer.py',
+   'PYMODULE'),
+  ('pycparser.ply.lex',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pycparser\\ply\\lex.py',
+   'PYMODULE'),
+  ('pycparser.ply.yacc',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pycparser\\ply\\yacc.py',
+   'PYMODULE'),
+  ('pycparser.ply',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pycparser\\ply\\__init__.py',
+   'PYMODULE'),
+  ('pycparser.c_ast',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pycparser\\c_ast.py',
+   'PYMODULE'),
+  ('cffi.commontypes',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cffi\\commontypes.py',
+   'PYMODULE'),
+  ('cffi.model',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\cffi\\model.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('tkinter',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('pathlib',
+   'c:\\users\\muhammed '
+   'el-sayed\\appdata\\local\\programs\\python\\python39\\lib\\pathlib.py',
+   'PYMODULE')])

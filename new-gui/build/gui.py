@@ -20,6 +20,7 @@ import threading
 import plat_bot as pb
 import random
 import os
+import sys
 GWL_EXSTYLE = -20
 WS_EX_APPWINDOW = 0x00040000
 WS_EX_TOOLWINDOW = 0x00000080
@@ -39,12 +40,14 @@ def get_relic():
     if dropdown_text.get() == dropdown_options[3]:
         relic_name = combo.get()
         req_relic = pb.search_specific_relic(relic_name)
-        result_text.config(text=req_relic.average_price)
-        
+        # only get first 2 decimals
+        req_relic.average_price = str(req_relic.average_price)[0:4]
+        result_text.config(text="Average Cost of Relic: "+ str(req_relic.average_price))
+        result_text.place(relx=0.51, rely=0.9, anchor='center')
         print(req_relic.average_price)
     else:
         print(vaulted_check)
-        final_relic = pb.get_best_relic(pb.get_items_id(pb.parseXML('E:\GIT\plat_bot\items - Copy.xml'), vaulted_check[0], vaulted_check[1]), vaulted_check[0], vaulted_check[1])
+        final_relic = pb.get_best_relic(pb.get_items_id(pb.parseXML(relative_to_assets('relics.xml')), vaulted_check[0], vaulted_check[1]), vaulted_check[0], vaulted_check[1])
         i = 0
         curr_top_ten = dict(sorted(pb.top_ten.items(), key=lambda item: item[1]))
         print(curr_top_ten)
@@ -109,7 +112,7 @@ def test_random():
 def random_icon():
     global img
     img = random.choice(
-        list(Path("E:\GIT\plat_bot\images\\relics").glob("*.png")))
+        list(relative_to_assets("images\\relics").glob("*.png")))
     return img
 
 
@@ -161,7 +164,7 @@ window.bind('<Button-1>', lambda e: clickwindow(e))
 window.bind('<B1-Motion>', lambda e: dragwindow(e))
 def onRootIconify(event): window.withdraw()
 combo = ttk.Combobox(window, state='readonly')
-relic_names = pb.get_relic_names('E:\GIT\plat_bot\items - Copy.xml')
+relic_names = pb.get_relic_names(relative_to_assets('relics.xml'))
 
 
 
@@ -174,7 +177,7 @@ def onRootDeiconify(event): window.deiconify()
 
 
 root.bind("<Map>", onRootDeiconify)
-
+root.iconbitmap(relative_to_assets('icon.ico'))
 
 def clickwindow(event):
     global offsetx, offsety
@@ -283,7 +286,7 @@ round_style.configure("TButton", padding=0, relief='flat',
 
 button_style = ttk.Style
 
-canvas_image = Image.open('frameBackground.png').resize(
+canvas_image = Image.open(relative_to_assets("frameBackground.png")).resize(
     (400, 600), Image.ANTIALIAS)
 canvas_image = ImageTk.PhotoImage(canvas_image)
 
@@ -345,7 +348,7 @@ result_text = StringVar()
 vaulted_var = IntVar()
 normal_drops_var = IntVar()
 
-result_text = Label(window, width=10, height=3,  bg='#000015', fg='#FFFFFF', font = "-family {Roboto Medium} -size 9 -weight bold ", highlightthickness=0, borderwidth=0)
+result_text = Label(window, width=25, height=3,  bg='#000015', fg='#FFFFFF', font = "-family {Roboto Medium} -size 9 -weight bold ", highlightthickness=0, borderwidth=0)
 result_text.place(relx=0.6, rely=0.9, anchor='center')
 
 
@@ -374,7 +377,7 @@ exit_button = Button(
     font="-family {Segoe UI} -size 12 -weight bold ",
     highlightthickness=0,
     relief="flat",
-    command=lambda: exit(),
+    command=lambda: sys.exit(0),
 )
 exit_button.bind("<Enter>", on_enter_exit)
 exit_button.bind("<Leave>", on_exit_exit)
