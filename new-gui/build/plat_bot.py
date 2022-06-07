@@ -48,7 +48,6 @@ def get_best_relic(relics, vaultedCheck, unvaultedCheck):
             best_relic = relic
     print(best_relic.name)
     searching = False
-    # list top ten best drops from the list of relics
 
     for relic in relics:
         if relic.vaulted == True and vaultedCheck == False:
@@ -145,8 +144,6 @@ def get_items_id(relics, vaultedCheck, unvaultedCheck):
 
 def parseXML(xmlfile):
     global all_relics
-    searching = True
-    # parse the xml file, sorting each relic drop into a dictionary with the drops stored as the values
 
     tree = ET.parse(xmlfile)
     root = tree.getroot()
@@ -170,6 +167,7 @@ def get_relic_names(xmlfile):
     for relic in relics:
         names.append(relic.name)
     return names
+
 def search_specific_relic(relic_name):
     global all_relics
     # find relic in all_relics
